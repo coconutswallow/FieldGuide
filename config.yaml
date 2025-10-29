@@ -1,5 +1,5 @@
 title: "D&D Monster Compendium"
-baseurl: "/FieldGuide" # <--- THIS IS THE CRITICAL LINE
+baseurl: "/FieldGuide"
 markdown: kramdown
 kramdown:
   parse_block_html: true
@@ -15,3 +15,9 @@ defaults:
       type: "monsters"
     values:
       layout: "statblock"
+
+# ADD THIS SECTION TO PREVENT BUILD FAILURES FROM JUNK FILES
+exclude:
+  - ".DS_Store"
+  - "Thumbs.db"
+  - "node_modules"

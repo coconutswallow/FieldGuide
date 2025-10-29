@@ -7,7 +7,8 @@ title: Monster Compendium
 
 Welcome to the monster compendium! Browse through our collection of creatures organized by type.
 
-{% assign monsters_by_category = site.monsters | group_by: 'category' | sort: 'name' %}
+{% assign valid_monsters = site.monsters | where_exp:"item", "item.category and item.title" %}
+{% assign monsters_by_category = valid_monsters | group_by: 'category' | sort: 'name' %}
 
 {% assign valid_monsters = site.monsters | where_exp:"monster", "monster.category != null" %}
 {% assign monsters_by_category = valid_monsters | group_by: 'category' | sort: 'name' %}
