@@ -2,6 +2,7 @@
 layout: statblock
 title: Ice Aberration
 cr: 5
+type: Large Aberration, Unaligned
 category: Aberrations
 image: /assets/images/ice-aberration.jpg
 image_credit: "Art by John Doe"
