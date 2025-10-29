@@ -27,3 +27,7 @@ Welcome to the monster compendium! Browse through our collection of creatures or
 {% endfor %}
 </div>
 {% endfor %}
+
+collections:
+  monsters:
+    output: true

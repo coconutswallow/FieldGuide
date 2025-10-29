@@ -1,6 +1,7 @@
 title: "D&D Monster Compendium"
 baseurl: "/FieldGuide"
 markdown: kramdown
+
 kramdown:
   parse_block_html: true
 
@@ -9,7 +10,7 @@ collections:
     output: true
     permalink: /monsters/:name/
 
-# CRITICAL FIX: Stops the conflicting default theme
+# Disable default GitHub Pages theme
 theme: null
 
 defaults:
