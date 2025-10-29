@@ -3,6 +3,11 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
+# Jekyll settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 collections:
   monsters:
     output: true
@@ -14,4 +19,11 @@ defaults:
       type: "monsters"
     values:
       layout: "statblock"
-```
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
