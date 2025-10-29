@@ -1,0 +1,31 @@
+---
+layout: default
+title: Monster Compendium
+---
+
+<h1>D&D Monster Compendium</h1>
+
+<p>Welcome to the monster compendium! Browse through our collection of creatures organized by type.</p>
+
+{% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' | sort: 'name' %}
+
+{% for category in monsters_by_category %}
+  <h2>{{ category.name }}</h2>
+
+  <div class="monster-list">
+    {% assign sorted = category.items | sort: 'title' %}
+    {% for monster in sorted %}
+      <div class="monster-card">
+        <h3><a href="{{ monster.url | relative_url }}">{{ monster.title }}</a></h3>
+
+        {% if monster.cr %}
+          <p class="monster-cr">CR {{ monster.cr }}</p>
+        {% endif %}
+
+        {% if monster.type %}
+          <p class="monster-type">{{ monster.type }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
