@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/statblock.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/statblock.css">
 </head>
 <body>
     <!-- Header -->
@@ -12,9 +12,9 @@
         <div class="header-content">
             <h1 class="site-title">{{ site.title | default: "D&D Monster Compendium" }}</h1>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/monsters' | relative_url }}">Monsters</a>
-                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/monsters/">Monsters</a>
+                <a href="{{ site.baseurl }}/about/">About</a>
             </nav>
         </div>
     </header>
@@ -22,8 +22,7 @@
     <!-- Main Content -->
     <div class="page">
         {{ content }}
-        
-        <!-- Optional Image Section -->
+
         {% if page.image %}
         <div class="monster-image-container">
             <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
@@ -32,8 +31,7 @@
             {% endif %}
         </div>
         {% endif %}
-        
-        <!-- Optional Description Section -->
+
         {% if page.description %}
         <div class="monster-description">
             {{ page.description | markdownify }}
