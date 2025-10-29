@@ -1,0 +1,17 @@
+title: "D&D Monster Compendium"
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+collections:
+  monsters:
+    output: true
+    permalink: /monsters/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "monsters"
+    values:
+      layout: "statblock"
+```

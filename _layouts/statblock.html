@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/statblock.css' | relative_url }}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">{{ site.title | default: "D&D Monster Compendium" }}</h1>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/monsters' | relative_url }}">Monsters</a>
+                <a href="{{ '/about' | relative_url }}">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="page">
+        {{ content }}
+        
+        <!-- Optional Image Section -->
+        {% if page.image %}
+        <div class="monster-image-container">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+            {% if page.image_credit %}
+            <p class="image-credit">{{ page.image_credit }}</p>
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        <!-- Optional Description Section -->
+        {% if page.description %}
+        <div class="monster-description">
+            {{ page.description | markdownify }}
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: "D&D Monster Compendium" }}</p>
+            <p>Created for personal D&D campaigns</p>
+        </div>
+    </footer>
+</body>
+</html>

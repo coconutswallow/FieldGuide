@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/statblock.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">{{ site.title }}</h1>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page">
+        {{ content }}
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+            <p>Created for personal D&D campaigns</p>
+        </div>
+    </footer>
+</body>
+</html>
