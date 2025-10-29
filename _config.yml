@@ -1,6 +1,7 @@
 title: "D&D Monster Compendium"
 baseurl: "/FieldGuide"
 markdown: kramdown
+theme: null
 
 kramdown:
   parse_block_html: true
