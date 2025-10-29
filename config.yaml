@@ -9,6 +9,9 @@ collections:
     output: true
     permalink: /monsters/:name/
 
+# ADD THIS LINE TO PREVENT THE GITHUB DEFAULT THEME FROM INTERFERING
+theme: null
+
 defaults:
   - scope:
       path: ""
