@@ -1,5 +1,5 @@
 title: "D&D Monster Compendium"
-baseurl: "/FieldGuide"
+baseurl: "/FieldGuide" # Fixes paths for Project Page URL
 markdown: kramdown
 kramdown:
   parse_block_html: true
@@ -9,7 +9,7 @@ collections:
     output: true
     permalink: /monsters/:name/
 
-# ADD THIS LINE TO PREVENT THE GITHUB DEFAULT THEME FROM INTERFERING
+# CRITICAL FIX: Stops the GitHub Pages default theme from loading and conflicting
 theme: null
 
 defaults:
@@ -19,7 +19,7 @@ defaults:
     values:
       layout: "statblock"
 
-# ADD THIS SECTION TO PREVENT BUILD FAILURES FROM JUNK FILES
+# FIX: Prevents system files from crashing the collection parsing
 exclude:
   - ".DS_Store"
   - "Thumbs.db"
