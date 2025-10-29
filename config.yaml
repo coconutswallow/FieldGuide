@@ -1,12 +1,8 @@
 title: "D&D Monster Compendium"
+baseurl: "/FieldGuide" # <--- THIS IS THE CRITICAL LINE
 markdown: kramdown
 kramdown:
   parse_block_html: true
-
-# Jekyll settings
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
 
 collections:
   monsters:
@@ -19,11 +15,3 @@ defaults:
       type: "monsters"
     values:
       layout: "statblock"
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/
-  - README.md
