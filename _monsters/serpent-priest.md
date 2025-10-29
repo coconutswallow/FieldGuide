@@ -1,4 +1,5 @@
 ---
+layout: statblock
 title: Serpent Priest
 category: Humanoid
 cr: 6

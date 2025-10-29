@@ -1,4 +1,5 @@
 ---
+layout: statblock
 title: Ember Drake
 category: Dragon
 cr: 4
