@@ -9,7 +9,7 @@ collections:
     output: true
     permalink: /monsters/:name/
 
-# CRITICAL FIX: Stops the GitHub Pages default theme from loading
+# CRITICAL FIX: Stops the conflicting default theme
 theme: null
 
 defaults:

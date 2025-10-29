@@ -4,14 +4,12 @@ title: Monster Compendium
 ---
 
 # D&D Monster Compendium
-...
+
+Welcome to the monster compendium! Browse through our collection of creatures organized by type.
 
 {% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' | sort: 'name' %}
 
-{% for category in monsters_by_category %}
-...
-
-{% for category in monsters_by_category %}
+{% for category in monsters_by_category %} 
 ## {{ category.name }}
 
 <div class="monster-list">
