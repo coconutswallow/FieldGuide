@@ -21,7 +21,13 @@
 
 /* Base page styling */
 body {
-    background-color: #000000;
+    /* background-color: #000000; <-- OLD */
+    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jHlk.png'); /* <-- Add your image URL here */
+    background-size: cover; /* <-- This makes the image cover the whole background */
+    background-position: center center; /* <-- This centers the image */
+    background-repeat: no-repeat; /* <-- This prevents the image from tiling */
+    background-attachment: fixed; /* <-- This makes the background image stay in place when scrolling */
+    background-color: #000000; /* <-- This is a fallback color if the image fails to load */
     margin: 0;
     padding: 20px;
     font-family: var(--font-body), 'Book Antiqua', Georgia, serif;
@@ -605,4 +611,5 @@ pre code {
     .monster-card {
         padding: 1em;
     }
+}
 }
