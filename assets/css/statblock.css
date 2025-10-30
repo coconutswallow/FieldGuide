@@ -7,7 +7,8 @@
 /* Update the header styles */
 .site-header .site-title {
     font-family: 'Merriweather', serif;
-    font-size: 47px;
+    /* UPDATED: Responsive font size: min 30px, preferred 4vw, max 47px */
+    font-size: clamp(1.875rem, 4vw, 2.9375rem); /* 30px -> 47px (assuming 1rem = 16px) */
     color: #f9f9f9;
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -589,9 +590,10 @@ pre code {
     blockquote table td {
         padding: 3px 5px;
     }
-     .site-header .site-title { /* <-- Changed from just .site-title to be more specific */
-        font-size: 2.5em; /* <-- Increased from 1.8em for better readability */
-    }
+     
+    /* REMOVED the .site-header .site-title { font-size: 2.5em; } rule 
+       because the clamp() function now handles this automatically.
+    */
     
     .site-nav a {
         margin: 0 0.5em;
@@ -612,7 +614,5 @@ pre code {
         padding: 1em;
     }
 }
-}
-
 
 
