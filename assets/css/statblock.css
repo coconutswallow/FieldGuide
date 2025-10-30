@@ -25,7 +25,7 @@
 /* Base page styling */
 body {
     /* background-color: #000000; <-- OLD */
-    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jHlk.png'); /* <-- Add your image URL here */
+    background-image: url('https://placehold.co/1920x1080/000000/333333?text=Your+Image+Here'); /* <-- Add your image URL here */
     background-size: cover; /* <-- This makes the image cover the whole background */
     background-position: center center; /* <-- This centers the image */
     background-repeat: no-repeat; /* <-- This prevents the image from tiling */
