@@ -502,6 +502,11 @@ pre code {
     border-radius: 8px;
     padding: 1.5em;
     transition: transform 0.2s, box-shadow 0.2s;
+    
+    /* === ADDED/MODIFIED FOR SINGLE-ROW LAYOUT === */
+    display: flex; 
+    align-items: center; /* Vertically center the items */
+    padding: 0.8em 1.5em; /* Reduce vertical padding */
 }
 
 .monster-card:hover {
@@ -512,9 +517,13 @@ pre code {
 .monster-card h3 {
     font-family: var(--font-header);
     margin-top: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em; /* Remove this */
     border: none;
     font-size: 1.3em;
+    
+    /* === ADDED/MODIFIED FOR SINGLE-ROW LAYOUT === */
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Prevent title from wrapping */
 }
 
 .monster-card h3 a {
