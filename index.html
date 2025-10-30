@@ -28,14 +28,6 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
     {% for monster in sorted %}
       <div class="monster-card">
         <h3><a href="{{ monster.url | relative_url }}">{{ monster.title }}</a></h3>
-
-        {% if monster.cr %}
-          <p class="monster-cr">CR {{ monster.cr }}</p>
-        {% endif %}
-
-        {% if monster.type %}
-          <p class="monster-type">{{ monster.type }}</p>
-        {% endif %}
       </div>
     {% endfor %}
   </div>

@@ -22,7 +22,7 @@
 /* Base page styling */
 body {
     /* background-color: #000000; <-- OLD */
-    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jHlk.png'); /* <-- Add your image URL here */
+    background-image: url('https://placehold.co/1920x1080/000000/333333?text=Your+Image+Here'); /* <-- Add your image URL here */
     background-size: cover; /* <-- This makes the image cover the whole background */
     background-position: center center; /* <-- This centers the image */
     background-repeat: no-repeat; /* <-- This prevents the image from tiling */
@@ -491,7 +491,7 @@ pre code {
 
 .monster-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: 1fr; /* <-- CHANGED from repeat(auto-fill, minmax(280px, 1fr)) */
     gap: 20px;
     margin: 2em 0 3em 0;
 }
@@ -502,11 +502,6 @@ pre code {
     border-radius: 8px;
     padding: 1.5em;
     transition: transform 0.2s, box-shadow 0.2s;
-    
-    /* === ADDED/MODIFIED FOR SINGLE-ROW LAYOUT === */
-    display: flex; 
-    align-items: center; /* Vertically center the items */
-    padding: 0.8em 1.5em; /* Reduce vertical padding */
 }
 
 .monster-card:hover {
@@ -517,13 +512,9 @@ pre code {
 .monster-card h3 {
     font-family: var(--font-header);
     margin-top: 0;
-    margin-bottom: 0.5em; /* Remove this */
+    margin-bottom: 0.5em;
     border: none;
     font-size: 1.3em;
-    
-    /* === ADDED/MODIFIED FOR SINGLE-ROW LAYOUT === */
-    margin: 0; /* Remove default margin */
-    white-space: nowrap; /* Prevent title from wrapping */
 }
 
 .monster-card h3 a {
@@ -622,3 +613,4 @@ pre code {
     }
 }
 }
+
