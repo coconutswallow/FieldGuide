@@ -17,8 +17,7 @@
                 <span class="bar"></span>
             </button>
             <h1 class="site-title">{{ site.title | default: "Hawthorne Field Guide" }}</h1>
-            
-            <!-- Standard Desktop Navigation (Added back to header in default layout) -->
+             <!-- Standard Desktop Navigation -->
             <nav class="site-nav">
                 <a href="{{ site.baseurl }}/">Home</a>
                 <a href="{{ site.baseurl }}/monsters/">Monsters</a>
@@ -27,7 +26,7 @@
         </div>
     </header>
 
-    <!-- OFF-CANVAS SIDEBAR MENU STRUCTURE (Must exist ONLY here) -->
+    <!-- OFF-CANVAS SIDEBAR MENU (Must exist ONLY here) -->
     <div id="sidebar-menu">
         <div class="sidebar-header">
             <h4 class="sidebar-title">Menu</h4>
@@ -55,9 +54,8 @@
         </div>
     </footer>
     
-    <!-- JAVASCRIPT FOR MENU INTERACTION (Must exist ONLY here) -->
+    <!-- JAVASCRIPT FOR MENU INTERACTION (Must exist ONLY here to prevent ID conflicts) -->
     <script>
-        // Ensure all elements exist before attaching listeners
         const menuToggle = document.getElementById('menu-toggle');
         const sidebarMenu = document.getElementById('sidebar-menu');
         const closeBtn = document.getElementById('close-menu-btn');
@@ -66,9 +64,8 @@
 
         // Function to handle opening and closing the menu
         function toggleMenu() {
-            // Only proceed if all necessary elements are found
-            if (!sidebarMenu || !menuOverlay) return; 
-            
+             // Basic guard clause to ensure elements exist
+             if (!sidebarMenu || !menuOverlay) return; 
             const isOpen = sidebarMenu.classList.toggle('open');
             menuOverlay.classList.toggle('open');
             // 'menu-open' class prevents background content from scrolling
@@ -80,6 +77,7 @@
             menuToggle.addEventListener('click', toggleMenu);
         }
         
+        // Attach listeners for closing the menu
         if (closeBtn) {
             closeBtn.addEventListener('click', toggleMenu);
         }
