@@ -45,11 +45,38 @@
         {% endif %}
     </div>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-content">
-            <p>Hawthorne Guild</p>
-        </div>
-    </footer>
+    <!-- JAVASCRIPT FOR MENU INTERACTION -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebarMenu = document.getElementById('sidebar-menu');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const menuOverlay = document.getElementById('menu-overlay');
+        const body = document.body;
+
+        // Function to handle opening and closing the menu
+        function toggleMenu() {
+            const isOpen = sidebarMenu.classList.toggle('open');
+            menuOverlay.classList.toggle('open');
+            // 'menu-open' class prevents background content from scrolling
+            body.classList.toggle('menu-open', isOpen);
+        }
+
+        // Attach listeners only if the toggle button exists on the page
+        if (menuToggle) {
+            menuToggle.addEventListener('click', toggleMenu);
+        }
+        
+        // Close menu handlers
+        closeBtn.addEventListener('click', toggleMenu);
+        menuOverlay.addEventListener('click', toggleMenu);
+        
+        // Closes the menu if the screen is resized to desktop size while the menu is open
+        window.addEventListener('resize', () => {
+            // Check if the sidebar is open and the screen size is wider than 768px (desktop breakpoint)
+            if (window.innerWidth > 768 && sidebarMenu.classList.contains('open')) {
+                toggleMenu(); 
+            }
+        });
+    </script>
 </body>
 </html>
