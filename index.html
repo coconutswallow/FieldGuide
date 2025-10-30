@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Monster Compendium
+title: Hawthorne Field Guide
 ---
 
-<h1>D&D Monster Compendium</h1>
+<h1>Hawthorne Field Guide</h1>
 
-<p>Welcome to the monster compendium! Browse through our collection of creatures organized by type.</p>
+<p>The monsters in this compendium have been created by various members of the community of the Hawthorne Dungeons & Dragons Guild. The credits are listed on the
+page of the statblock(s).</p>
 
 {% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' | sort: 'name' %}
 
