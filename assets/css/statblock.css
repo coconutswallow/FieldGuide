@@ -589,8 +589,8 @@ pre code {
     blockquote table td {
         padding: 3px 5px;
     }
-     .site-title {
-        font-size: 1.8em;
+     .site-header .site-title { /* <-- Changed from just .site-title to be more specific */
+        font-size: 2.5em; /* <-- Increased from 1.8em for better readability */
     }
     
     .site-nav a {
@@ -613,4 +613,6 @@ pre code {
     }
 }
 }
+
+
 
