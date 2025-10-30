@@ -375,8 +375,8 @@ pre code {
 /* ============================================ */
 
 .site-header {
-    /* REMOVED background-image to use solid color */
-    background: #5b0f00; /* UPDATED: Set solid background color for the top bar */
+    /* UPDATED: Set background image and properties */
+    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jr4Q.png'); /* NEW: Header background image requested by user */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -395,8 +395,7 @@ pre code {
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    background: none; /* UPDATED: Removed overlay since the background is now a solid dark color */
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability over the image */
     z-index: 1;
 }
 
@@ -463,7 +462,7 @@ pre code {
     width: 280px; /* Fixed width */
     max-width: 80vw; /* Responsive limit for small screens */
     height: 100%;
-    background: #5b0f00; /* Dark, thematic background - ALREADY UPDATED to #5b0f00 */
+    background: #5b0f00; /* Confirmed background color is #5b0f00 as requested */
     color: #FDF1DC;
     transform: translateX(-100%); /* Start off-screen */
     transition: transform 0.3s ease-in-out;
@@ -760,15 +759,7 @@ pre code {
         padding: 3px 5px;
     }
      
-    /* REMOVED the .site-header .site-title { font-size: 2.5em; } rule 
-       because the clamp() function now handles this automatically.
-    */
-    
-    /* Removed old site-nav styles */
-    .site-nav a {
-        /* These styles were for the desktop nav and are now unused */
-    }
-    
+   
     .monster-description {
         padding: 1.5em 0.8em;  /* Adjusted padding */
         font-size: 1.1em;  /* Still larger on mobile */
