@@ -7,15 +7,40 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/statblock.css">
 </head>
 <body>
+    <!-- Off-Canvas Menu and Overlay (NEW) -->
+    <div id="menu-overlay" onclick="closeMenu()"></div>
+    <div id="sidebar-menu">
+        <div class="sidebar-header">
+            <h2 class="sidebar-title">Menu</h2>
+            <!-- Close button using an 'X' symbol -->
+            <button class="close-btn" onclick="closeMenu()">&#10005;</button>
+        </div>
+        <nav class="sidebar-nav">
+            <!-- Internal Links -->
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/monsters/">Monsters</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+            
+            <div class="sidebar-divider"></div>
+            
+            <!-- External Links -->
+            <h3 class="external-links-title">External Guides</h3>
+            <a href="https://dungeonsanddragons.com/" target="_blank">Official D&D Site</a>
+            <a href="https://www.wizards.com/dnd/" target="_blank">Wizards of the Coast</a>
+        </nav>
+    </div>
+
     <!-- Header -->
     <header class="site-header">
         <div class="header-content">
+            <!-- Hamburger Menu Button (NEW) -->
+            <button id="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Navigation">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
             <h1 class="site-title">{{ site.title | default: "Hawthorne Field Guide" }}</h1>
-            <nav class="site-nav">
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="{{ site.baseurl }}/monsters/">Monsters</a>
-                <a href="{{ site.baseurl }}/about/">About</a>
-            </nav>
+            <!-- The old <nav class="site-nav"> has been removed -->
         </div>
     </header>
 
@@ -45,5 +70,32 @@
             <p>Hawthorne Guild</p>
         </div>
     </footer>
+
+    <!-- Script for menu functionality (NEW) -->
+    <script>
+        /**
+         * Toggles the visibility and state of the off-canvas sidebar menu.
+         */
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar-menu');
+            const overlay = document.getElementById('menu-overlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('open');
+            // Prevent body scrolling when the menu is open
+            document.body.classList.toggle('menu-open');
+        }
+
+        /**
+         * Explicitly closes the off-canvas sidebar menu.
+         */
+        function closeMenu() {
+            const sidebar = document.getElementById('sidebar-menu');
+            const overlay = document.getElementById('menu-overlay');
+            sidebar.classList.remove('open');
+            overlay.classList.remove('open');
+            document.body.classList.remove('menu-open');
+        }
+    </script>
 </body>
 </html>
+
