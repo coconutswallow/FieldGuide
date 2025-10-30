@@ -24,13 +24,7 @@
 
 /* Base page styling */
 body {
-    /* background-color: #000000; <-- OLD */
-    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jHlk.png'); /* <-- Add your image URL here */
-    background-size: cover; /* <-- This makes the image cover the whole background */
-    background-position: center center; /* <-- This centers the image */
-    background-repeat: no-repeat; /* <-- This prevents the image from tiling */
-    background-attachment: fixed; /* <-- This makes the background image stay in place when scrolling */
-    background-color: #000000; /* <-- This is a fallback color if the image fails to load */
+    background-color: #000000;
     margin: 0;
     padding: 20px;
     font-family: var(--font-body), 'Book Antiqua', Georgia, serif;
@@ -40,456 +34,296 @@ body {
     line-height: 1.5;
 }
 
-/* NEW: Style to prevent background content from scrolling when menu is open */
-.menu-open {
-    overflow: hidden;
+/* Monster List and Card Spacing Fix */
+.monster-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px; /* Spacing between cards */
+    margin-bottom: 20px;
 }
 
+.monster-card {
+    /* *** FIX: Explicitly setting the padding to reduce vertical space *** */
+    padding: 6px 12px; /* Small vertical padding (6px) and decent horizontal padding (12px) */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.monster-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.monster-card h3 {
+    /* *** FIX: Removing default margin from H3 to eliminate extra vertical spacing *** */
+    margin: 0; 
+    font-size: 1em;
+    font-family: var(--font-header);
+    font-weight: 700;
+}
+
+.monster-card a {
+    text-decoration: none;
+    color: #58180D; /* A deep red/brown for links */
+    display: block; /* Makes the entire h3 clickable */
+}
+
+
+/* Site Header Styling */
+.site-header {
+    background: #58180D;
+    color: #f9f9f9;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.site-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Base Stat Block Styling */
 .page {
     max-width: 1000px;
-    /* User-specified margin/padding/shadow */
     margin: 20px auto;
-    background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUAAAAoAAAAKCAYAAACNMs+9AAAAHklEQVQoU2NkYGD4z4AEWBhgAhiKcJoFNROXQpxmAQBYNAUMcJ4P0gAAAABJRU5ErkJggg==');
+    background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA... base64 data ...'); /* Paper texture background */
     padding: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.25);
-    position: relative;
-    border-radius: 6px;
-}
-
-/* Headers */
-h1, h2, h3, h4 {
-    font-family: var(--font-header);
-    font-weight: 700;
-    color: #58180D;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-h1 {
-    font-size: 2em;
-    border-bottom: 2px solid #C0AD6A;
-    padding-bottom: 0.2em;
-}
-
-h2 {
-    font-size: 1.8em;
-    border-bottom: 1px solid #C0AD6A;
-    padding-bottom: 0.2em;
-}
-
-h3 {
-    font-size: 1.3em;
-    border-bottom: 1.5px solid #58180D;
-    border-top: none; /* Removed top border as requested */
-}
-
-/* Paragraphs */
-p {
-    margin-bottom: 0.8em;
-    font-family: var(--font-body); /* Ensure body font for regular text */
-}
-
-/* 2024 Stat Block Styling */
-blockquote {
-    background: #FDF1DC;
-    border: 2px solid #58180D;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+    min-height: 80vh; /* Ensure some minimum height */
+}
+
+/* Stat Block components - Blockquote acts as the main container */
+blockquote {
+    /* User-specified border/style */
+    border: 3px solid #58180D; 
     padding: 0;
-    /* User-specified margin */
-    margin: 1em 0;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
-    font-family: var(--font-body);
-    overflow: hidden;
-    page-break-inside: avoid;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Stat block header with creature name */
 blockquote h2 {
-    font-family: 'Cinzel Decorative', 'Cinzel', Georgia, serif;
-    font-size: 1.3em;
-    color: #FDF1DC;
-    background: #58180D;
-    border: none;
-    margin: 0;
-    padding: 8px 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
-/* All content inside blockquote gets padding except headers */
-blockquote > *:not(h2):not(h3) {
-    /* User-specified padding */
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-/* First paragraph (creature type) */
-blockquote p:first-of-type {
-    font-style: italic;
-    margin: 8px 0 4px 0;
-    /* UPDATED font size for content paragraphs */
-    font-size: 1em; 
-}
-
-blockquote p {
-    margin: 6px 0;
-    /* UPDATED font size for content paragraphs */
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/* Section headers (TRAITS, ACTIONS) */
-blockquote h3 {
+    /* Red-brown header bar */
+    background-color: #58180D; 
+    color: #f9f9f9;
     font-family: var(--font-header);
-    /* UPDATED font size */
-    font-size: 1em;
-    color: #58180D;
-    background: none;
-    border: none;
-    /* Top border removed, bottom border kept */
-    border-bottom: 1.5px solid #58180D;
-    margin: 12px 0 8px 0;
-    padding: 5px 8px;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    font-weight: 700;
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 1.4em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-/* Bold text */
-blockquote strong {
-    font-weight: 700;
+blockquote h3 {
+    /* Sub-headers like 'Actions' */
+    background-color: #7B3F00;
+    color: #f9f9f9;
+    font-family: var(--font-header);
+    padding: 8px 15px;
+    margin: 0;
+    font-size: 1.1em;
+    border-top: 1px solid #58180D;
+    border-bottom: 1px solid #58180D;
 }
 
-/* Italic text */
-blockquote em {
-    font-style: italic;
-}
-
-/* Bold italic */
-blockquote strong em,
-blockquote em strong {
-    font-weight: 700;
-    font-style: italic;
-}
-
-/* Lists inside stat blocks */
-blockquote ul {
-    list-style: none;
-    padding: 0 8px;
-    margin: 6px 0;
-}
-
-blockquote ul li {
-    margin: 4px 0;
-    /* UPDATED font size for list items */
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/* Ability scores table */
+/* Tables in Stat Block */
 blockquote table {
-    /* Adjusted width based on user padding (100% - 2*8px) */
-    width: calc(100% - 16px);
-    margin: 8px 8px;
+    width: 100%;
     border-collapse: collapse;
-    /* UPDATED: Increased table font size for better readability */
-    font-size: 0.95em; 
-    background: none;
-    /* ADDED: Use table-layout fixed for more predictable columns */
-    table-layout: fixed;
-}
-
-blockquote table th,
-blockquote table td {
-    padding: 4px 3px;
-    text-align: center;
-    border: none;
-    background: none;
-    /* UPDATED: Minimized horizontal padding for responsiveness */
-    padding: 4px 1px;
-    min-width: 0;
-    font-family: var(--font-body);
-}
-
-blockquote table th {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    margin: 0;
     font-size: 0.9em;
 }
 
-blockquote table td {
-    font-weight: 400;
-}
-
-/* Set column widths for a 12-column grid:
-   Ability (Name): 12%
-   The other 11 columns (Score, Mod, Save): 8% each (8% * 11 = 88%)
-   Total = 100%
-*/
-
-/* Ability Name columns */
-blockquote table td:nth-child(1),
-blockquote table td:nth-child(5),
-blockquote table td:nth-child(9) {
-    /* OPTIMIZED: Set explicit width to 12% to fit on mobile */
-    width: 12%;
+blockquote table th {
+    font-family: var(--font-header);
     text-align: left;
-    font-weight: 700;
-    padding-left: 6px;
+    background-color: #eee;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ddd;
+    width: 25%; /* Fixed width for labels */
 }
 
-/* Ability Score Value columns */
-blockquote table td:nth-child(2),
-blockquote table td:nth-child(6),
-blockquote table td:nth-child(10) {
-    /* OPTIMIZED: Set explicit width to 8% to fit on mobile */
-    width: 8%;
-    font-weight: 600;
+blockquote table td {
+    padding: 5px 15px;
+    border-bottom: 1px solid #eee;
 }
 
-/* MOD and SAVE columns - gray background */
-blockquote table td:nth-child(3),
-blockquote table td:nth-child(4),
-blockquote table td:nth-child(7),
-blockquote table td:nth-child(8),
-blockquote table td:nth-child(11),
-blockquote table td:nth-child(12) {
-    /* OPTIMIZED: Set explicit width to 8% to fit on mobile */
-    width: 8%;
-    font-weight: 400;
-    background: #dad1ca;
+/* Specific styling for the 'Traits/Abilities' list */
+.stat-block ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
 }
 
-/* Horizontal rules */
-blockquote hr {
-    border: none;
-    border-top: 1.5px solid #58180D;
-    /* Adjusted margin to match blockquote padding */
-    margin: 8px 8px;
+.stat-block ul li {
+    padding: 5px 15px;
+    border-bottom: 1px dashed #eee;
+    display: flex; /* Use flexbox for trait name and description */
 }
 
-/* ------------------------------------------- */
-/* NEW STYLES FOR AFTER-STATBLOCK CONTENT (Request 1) */
-/* ------------------------------------------- */
+.stat-block ul li:last-child {
+    border-bottom: none;
+}
 
+.trait-name {
+    font-weight: bold;
+    font-family: var(--font-header);
+    color: #58180D;
+    flex-shrink: 0; /* Prevents the name from wrapping */
+    margin-right: 5px; /* Spacing between name and description */
+}
 
-/* Image Container */
+/* Creature Description Section */
+.monster-description {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+}
+
+.monster-description p {
+    margin-top: 0;
+}
+
+/* Monster Image */
 .monster-image-container {
-    width: 100%;
-    margin: 2em 0;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .monster-image-container img {
-    max-width: 100%; /* Ensures image is responsive and fits mobile screens */
+    max-width: 100%;
     height: auto;
-    border: 5px solid #58180D; /* Thematic border */
+    border: 3px solid #58180D;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* General tables outside stat blocks */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1em 0;
-    background: #FDF1DC;
+.image-credit {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
 }
 
-table th {
-    font-family: var(--font-body);
-    background: #E0E5C1;
-    padding: 8px;
-    text-align: left;
-    font-weight: 700;
-    border: 1px solid #DDD;
-}
-
-table td {
-    padding: 8px;
-    border: 1px solid #DDD;
-    font-family: var(--font-body);
-}
-
-table tr:nth-child(even) {
-    background: #FAF7EA;
-}
-
-/* Links */
-a {
-    color: #58180D;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #822000;
-}
-
-/* Lists */
-ul, ol {
-    margin-left: 1.5em;
-    line-height: 1.6;
-    font-family: var(--font-body);
-}
-
-/* Code blocks */
-code {
-    background: #FDF1DC;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: 'Courier New', monospace;
+/* Footer Styling */
+.site-footer {
+    text-align: center;
+    padding: 15px 20px;
+    background: #333;
+    color: #bbb;
+    margin-top: 20px;
+    border-top: 1px solid #555;
     font-size: 0.9em;
 }
 
-pre {
-    background: #FDF1DC;
-    padding: 1em;
-    border-radius: 5px;
-    overflow-x: auto;
-    border: 1px solid #DDD;
+.site-footer a {
+    color: #ccc;
+    text-decoration: none;
 }
 
-pre code {
-    background: none;
-    padding: 0;
+.site-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
-/* Print styling */
-@media print {
-    body {
-        background: white;
-    }
-
-    .page {
-        box-shadow: none;
-        margin: 0;
-        padding: 0.5in;
-    }
-}
-/* ============================================ */
-/* HEADER STYLES */
-/* ============================================ */
-
-.site-header {
-    /* UPDATED: Set background image and properties */
-    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jr4Q.png'); /* NEW: Header background image requested by user */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 2rem 0;
-    position: relative;
-    color: #f9f9f9;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-    margin-bottom: 20px;
-}
-
-/* Add an overlay to ensure text remains readable */
-.site-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability over the image */
-    z-index: 1;
-}
-
-.header-content {
-    position: relative;
-    z-index: 2; /* Place content above the overlay */
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    /* NEW: Use grid to position the hamburger button on the left and center the title */
-    display: grid; 
-    grid-template-columns: auto 1fr auto; /* Button, Title, Spacer (to balance) */
-    align-items: center;
-    text-align: center;
-}
-
-/* Hide the old navigation container */
-.site-nav {
-    display: none;
-}
-
-/* ============================================ */
-/* HAMBURGER MENU STYLES (NEW) */
-/* ============================================ */
-
-/* Hamburger Button */
-#menu-toggle {
-    grid-column: 1 / 2; /* Position in the first column */
-    background: none;
-    border: none; /* CHANGED: Removed the border for a cleaner, Google Sites look */
-    border-radius: 0; /* CHANGED: Removed border radius */
-    padding: 10px; /* Adjusted padding to maintain a good touch target */
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 32px; /* Smaller width for the bars */
-    height: 32px; /* Smaller height for the bars */
-    transition: opacity 0.3s; /* CHANGED: Use opacity for hover effect */
-    z-index: 100; /* Ensure button is above header overlay */
-    margin: 0;
-    /* Auto-margin for the third column to balance the grid and keep the title centered */
-    justify-self: start; 
-}
-
-#menu-toggle:hover {
-    opacity: 0.8; /* Simple fade effect on hover */
-}
-
-#menu-toggle .bar {
-    width: 100%;
-    height: 3px;
-    background-color: #f9f9f9;
-    border-radius: 2px;
-    transition: all 0.3s ease-in-out;
-}
-
-/* Off-Canvas Sidebar */
+/* Sidebar Menu Styles */
 #sidebar-menu {
     position: fixed;
     top: 0;
     left: 0;
-    width: 280px; /* Fixed width */
-    max-width: 80vw; /* Responsive limit for small screens */
+    width: 250px;
     height: 100%;
-    background: #5b0f00; /* Confirmed background color is #5b0f00 as requested */
-    color: #FDF1DC;
-    transform: translateX(-100%); /* Start off-screen */
+    background-color: #222;
+    color: #f9f9f9;
+    transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    padding: 20px;
+    z-index: 1000; /* Above all content */
+    box-shadow: 4px 0 10px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
-    font-family: var(--font-body);
 }
 
 #sidebar-menu.open {
-    transform: translateX(0); /* Slide in */
+    transform: translateX(0);
 }
 
-/* Menu Overlay (The dark semi-transparent background behind the menu) */
+.sidebar-header {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-family: var(--font-header);
+    font-size: 1.2em;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #f9f9f9;
+    font-size: 1.5em;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sidebar-nav a {
+    color: #f9f9f9;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.2s;
+}
+
+.sidebar-nav a:hover {
+    background-color: #333;
+}
+
 #menu-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #menu-overlay.open {
@@ -497,223 +331,53 @@ pre code {
     opacity: 1;
 }
 
-/* Sidebar Content Styling */
-.sidebar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #C0AD6A;
-    margin-bottom: 20px;
+/* Utility to prevent background scrolling when menu is open */
+body.menu-open {
+    overflow: hidden;
 }
 
-.sidebar-title {
-    font-family: var(--font-header);
-    font-size: 1.5rem;
-    color: #FDF1DC;
-    margin: 0;
-    border: none;
-    padding: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.close-btn {
+/* Hamburger Icon Styling */
+#menu-toggle {
+    display: none; /* Hidden on desktop */
     background: none;
     border: none;
-    color: #FDF1DC;
-    font-size: 1.5rem;
     cursor: pointer;
-    padding: 5px;
-}
-
-.sidebar-nav {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar-nav a {
-    color: #FDF1DC;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    transition: background-color 0.2s, padding-left 0.2s, color 0.2s;
-    font-weight: 400;
-}
-
-.sidebar-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    padding-left: 10px;
-    color: #C0AD6A;
-}
-
-.sidebar-nav a:last-child {
-    border-bottom: none;
-}
-
-.sidebar-divider {
-    height: 1px;
-    background-color: #C0AD6A;
-    margin: 20px 0;
-}
-
-.external-links-title {
-    font-family: var(--font-header);
-    font-size: 0.9rem;
-    color: #C0AD6A;
-    text-transform: uppercase;
-    margin: 0 0 10px 0;
-    border: none;
     padding: 0;
-    letter-spacing: 1px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    /* Move button to the left column */
+    grid-column: 1 / 2; 
+    align-self: center;
 }
 
-
-/* ============================================ */
-/* FOOTER STYLES */
-/* ============================================ */
-
-.site-footer {
-    background: #5b0f00;
-    color: #FDF1DC;
-    padding: 2em 0;
-    margin-top: 40px;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
-}
-
-.footer-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: center;
-    font-family: var(--font-body);
-}
-
-.footer-content p {
-    margin: 0.5em 0;
-    color: #FDF1DC;
-}
-
-/* ============================================ */
-/* MONSTER IMAGE STYLES */
-/* ============================================ */
-
-.monster-image-container {
+#menu-toggle .bar {
+    display: block;
     width: 100%;
-    margin: 2em 0;
-    text-align: center;
+    height: 3px;
+    background-color: #f9f9f9;
+    margin: 6px 0;
+    transition: all 0.3s;
 }
-
-.monster-image-container img {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid #58180D;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.image-credit {
-    font-size: 0.9em;
-    color: #666;
-    font-style: italic;
-    margin-top: 0.5em;
-}
-
-/* ============================================ */
-/* MONSTER DESCRIPTION STYLES */
-/* ============================================ */
-
-.monster-description {
-    font-family: var(--font-body);
-    font-size: 1.3em;  /* Increased from 1.1em */
-    line-height: 1.7;
-    color: #2c2c2c;
-    padding: 2em 1em;  /* Increased padding */
-    margin-top: 2em;
-    background: #ffffff;  /* Changed to pure white */
-    border: none;  /* Removed border */
-    border-radius: 0;  /* Removed rounded corners */
-    text-align: justify;
-}
-
-.monster-description h4 {
-    font-family: var(--font-header);
-    color: #58180D;
-    font-size: 1.4em;  /* Slightly larger */
-    margin-top: 1.2em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-}
-
-.monster-description p:first-child {
-    margin-top: 0;
-}
-
-.monster-description p {
-    margin-bottom: 1em;  /* Better paragraph spacing */
-}
-
-/* ============================================ */
-/* MONSTER INDEX/LIST STYLES */
-/* ============================================ */
-
-.monster-list {
-    display: grid;
-    grid-template-columns: 1fr; /* <-- CHANGED from repeat(auto-fill, minmax(280px, 1fr)) */
-    gap: 20px;
-    margin: 2em 0 3em 0;
-}
-
-.monster-card {
-    background: #FDF1DC;
-    border: 2px solid #58180D;
-    border-radius: 8px;
-    padding: 1.5em;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.monster-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.monster-card h3 {
-    font-family: var(--font-header);
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    border: none;
-    font-size: 1.3em;
-}
-
-.monster-card h3 a {
-    color: #58180D;
-    text-decoration: none;
-}
-
-.monster-card h3 a:hover {
-    color: #822000;
-}
-
-.monster-cr {
-    font-family: var(--font-body);
-    font-weight: bold;
-    color: #822000;
-    margin: 0.3em 0;
-    font-size: 0.95em;
-}
-
-.monster-type {
-    font-family: var(--font-body);
-    font-style: italic;
-    color: #666;
-    margin: 0.3em 0;
-    font-size: 0.9em;
-}
-
 
 /* Responsive mobile adjustments (Adopted from user provided CSS) */
 @media (max-width: 768px) {
+    /* Header layout changes for mobile */
+    .header-content {
+        /* Use grid for better alignment of menu button and title */
+        display: grid;
+        grid-template-columns: 40px 1fr 40px; /* Menu Button | Title | Empty Space or second button */
+        gap: 10px;
+    }
+
+    #menu-toggle {
+        display: block; /* Show hamburger icon on mobile */
+    }
+
+    .site-nav {
+        display: none; /* Hide standard navigation on mobile */
+    }
+
     body {
         font-size: 12px;
         padding: 10px;
@@ -757,19 +421,5 @@ pre code {
     blockquote table th,
     blockquote table td {
         padding: 3px 5px;
-    }
-     
-   
-    .monster-description {
-        padding: 1.5em 0.8em;  /* Adjusted padding */
-        font-size: 1.1em;  /* Still larger on mobile */
-    }
-        .monster-list {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    
-    .monster-card {
-        padding: 1em;
     }
 }
