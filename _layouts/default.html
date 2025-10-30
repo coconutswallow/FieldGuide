@@ -8,6 +8,27 @@
 </head>
 <body>
 
+    <!-- OFF-CANVAS SIDEBAR MENU (Hidden off-screen by default) -->
+    <div id="sidebar-menu">
+        <div class="sidebar-header">
+            <h4 class="sidebar-title">Menu</h4>
+            <button id="close-menu-btn" class="close-btn" aria-label="Close Menu">&times;</button>
+        </div>
+        <div class="sidebar-nav">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/monsters/">Monsters</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+        </div>
+        <div class="sidebar-divider"></div>
+        <h5 class="external-links-title">External Links</h5>
+        <div class="sidebar-nav">
+            <a href="https://example.com/wiki" target="_blank">Hawthorne Wiki</a>
+            <a href="https://example.com/discord" target="_blank">Discord Server</a>
+        </div>
+    </div>
+
+    <!-- MENU OVERLAY (Dark background that appears when menu is open) -->
+    <div id="menu-overlay"></div>
 
     <div class="page">
         {{ content }}
@@ -18,5 +39,40 @@
             <p>Hawthorne Guild</p>
         </div>
     </footer>
+
+    <!-- JAVASCRIPT FOR MENU INTERACTION -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const sidebarMenu = document.getElementById('sidebar-menu');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const menuOverlay = document.getElementById('menu-overlay');
+        const body = document.body;
+
+        // Function to handle opening and closing the menu
+        function toggleMenu() {
+            const isOpen = sidebarMenu.classList.toggle('open');
+            menuOverlay.classList.toggle('open');
+            // 'menu-open' class prevents background content from scrolling
+            body.classList.toggle('menu-open', isOpen);
+        }
+
+        // Attach listeners only if the toggle button exists on the page
+        if (menuToggle) {
+            menuToggle.addEventListener('click', toggleMenu);
+        }
+        
+        // Close menu handlers
+        closeBtn.addEventListener('click', toggleMenu);
+        menuOverlay.addEventListener('click', toggleMenu);
+        
+        // Closes the menu if the screen is resized to desktop size while the menu is open
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                if (sidebarMenu.classList.contains('open')) {
+                    toggleMenu(); 
+                }
+            }
+        });
+    </script>
 </body>
 </html>
