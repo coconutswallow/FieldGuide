@@ -10,6 +10,12 @@
     <!-- Header -->
     <header class="site-header">
         <div class="header-content">
+            <!-- Hamburger Menu Button: Added to trigger the sidebar menu on this layout -->
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <h1 class="site-title">{{ site.title | default: "Hawthorne Field Guide" }}</h1>
             <nav class="site-nav">
                 <a href="{{ site.baseurl }}/">Home</a>

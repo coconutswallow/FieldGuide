@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="{{ '/assets/css/statblock.css' | relative_url }}">
 </head>
 <body>
+    <!-- Header: Added the site header structure for the hamburger button and title -->
+    <header class="site-header">
+        <div class="header-content">
+            <!-- Hamburger Menu Button -->
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <h1 class="site-title">{{ site.title | default: "Hawthorne Field Guide" }}</h1>
+        </div>
+    </header>
 
     <!-- OFF-CANVAS SIDEBAR MENU (Hidden off-screen by default) -->
     <div id="sidebar-menu">
@@ -14,17 +26,14 @@
             <h4 class="sidebar-title">Menu</h4>
             <button id="close-menu-btn" class="close-btn" aria-label="Close Menu">&times;</button>
         </div>
+        <!-- UPDATED: Navigation links as requested -->
         <div class="sidebar-nav">
+            <!-- Home link, points to index.html -->
             <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/monsters/">Monsters</a>
-            <a href="{{ site.baseurl }}/about/">About</a>
+            <!-- Hawthorne Player's Guide link, external, opens in new tab -->
+            <a href="https://sites.google.com/view/hawthorne-players-guide/home" target="_blank">Hawthorne Player's Guide</a>
         </div>
-        <div class="sidebar-divider"></div>
-        <h5 class="external-links-title">External Links</h5>
-        <div class="sidebar-nav">
-            <a href="https://example.com/wiki" target="_blank">Hawthorne Wiki</a>
-            <a href="https://example.com/discord" target="_blank">Discord Server</a>
-        </div>
+        <!-- Removed divider and old external links for a simpler menu -->
     </div>
 
     <!-- MENU OVERLAY (Dark background that appears when menu is open) -->
@@ -67,10 +76,9 @@
         
         // Closes the menu if the screen is resized to desktop size while the menu is open
         window.addEventListener('resize', () => {
-            if (window.innerWidth > 768) {
-                if (sidebarMenu.classList.contains('open')) {
-                    toggleMenu(); 
-                }
+            // Check if the sidebar is open and the screen size is wider than 768px (desktop breakpoint)
+            if (window.innerWidth > 768 && sidebarMenu.classList.contains('open')) {
+                toggleMenu(); 
             }
         });
     </script>
