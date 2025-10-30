@@ -7,45 +7,57 @@
     <link rel="stylesheet" href="{{ '/assets/css/statblock.css' | relative_url }}">
 </head>
 <body>
-    <!-- Header: Added the site header structure for the hamburger button and title -->
+    <!-- Header: This is the ONLY place the site header should be defined. -->
     <header class="site-header">
         <div class="header-content">
-            <!-- Hamburger Menu Button -->
+            <!-- Hamburger Menu Button (Must exist here to be functional on ALL pages) -->
             <button id="menu-toggle" aria-label="Toggle Navigation Menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
             <h1 class="site-title">{{ site.title | default: "Hawthorne Field Guide" }}</h1>
+            
+            <!-- Standard Desktop Navigation (Added back to header in default layout) -->
+            <nav class="site-nav">
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/monsters/">Monsters</a>
+                <a href="{{ site.baseurl }}/about/">About</a>
+            </nav>
         </div>
     </header>
 
-    <!-- OFF-CANVAS SIDEBAR MENU (Hidden off-screen by default) -->
+    <!-- OFF-CANVAS SIDEBAR MENU STRUCTURE (Must exist ONLY here) -->
     <div id="sidebar-menu">
         <div class="sidebar-header">
             <h4 class="sidebar-title">Menu</h4>
             <button id="close-menu-btn" class="close-btn" aria-label="Close Menu">&times;</button>
         </div>
-        <!-- UPDATED: Navigation links as requested -->
+        <!-- Navigation links for the sidebar -->
         <div class="sidebar-nav">
-            <!-- Home link, points to index.html -->
             <a href="{{ site.baseurl }}/">Home</a>
-            <!-- Hawthorne Player's Guide link, external, opens in new tab -->
-            <a href="https://sites.google.com/view/hawthorne-players-guide/home" target="_blank">Hawthorne Player's Guide</a>
+            <a href="{{ site.baseurl }}/monsters/">Monsters</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
         </div>
-        <!-- Removed divider and old external links for a simpler menu -->
     </div>
 
-    <!-- MENU OVERLAY (Dark background that appears when menu is open) -->
+    <!-- Menu Overlay for Click-to-Close -->
     <div id="menu-overlay"></div>
 
     <div class="page">
         {{ content }}
     </div>
 
-
-    <!-- JAVASCRIPT FOR MENU INTERACTION -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title | default: "Hawthorne Field Guide" }}</p>
+            <p>Created for personal D&D campaigns</p>
+        </div>
+    </footer>
+    
+    <!-- JAVASCRIPT FOR MENU INTERACTION (Must exist ONLY here) -->
     <script>
+        // Ensure all elements exist before attaching listeners
         const menuToggle = document.getElementById('menu-toggle');
         const sidebarMenu = document.getElementById('sidebar-menu');
         const closeBtn = document.getElementById('close-menu-btn');
@@ -54,26 +66,33 @@
 
         // Function to handle opening and closing the menu
         function toggleMenu() {
+            // Only proceed if all necessary elements are found
+            if (!sidebarMenu || !menuOverlay) return; 
+            
             const isOpen = sidebarMenu.classList.toggle('open');
             menuOverlay.classList.toggle('open');
             // 'menu-open' class prevents background content from scrolling
             body.classList.toggle('menu-open', isOpen);
         }
 
-        // Attach listeners only if the toggle button exists on the page
+        // Attach listeners
         if (menuToggle) {
             menuToggle.addEventListener('click', toggleMenu);
         }
         
-        // Close menu handlers
-        closeBtn.addEventListener('click', toggleMenu);
-        menuOverlay.addEventListener('click', toggleMenu);
+        if (closeBtn) {
+            closeBtn.addEventListener('click', toggleMenu);
+        }
+        
+        if (menuOverlay) {
+            menuOverlay.addEventListener('click', toggleMenu);
+        }
         
         // Closes the menu if the screen is resized to desktop size while the menu is open
         window.addEventListener('resize', () => {
-            // Check if the sidebar is open and the screen size is wider than 768px (desktop breakpoint)
-            if (window.innerWidth > 768 && sidebarMenu.classList.contains('open')) {
-                toggleMenu(); 
+            if (window.innerWidth > 768 && sidebarMenu && sidebarMenu.classList.contains('open')) {
+                // Use a short delay for smooth execution after resize event
+                setTimeout(toggleMenu, 50); 
             }
         });
     </script>
