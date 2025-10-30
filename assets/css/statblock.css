@@ -376,7 +376,6 @@ pre code {
 
 .site-header {
     /* UPDATED: Set background image and properties */
-    background-image: url('https://img.photouploads.com/file/PhotoUploads-com/jr4Q.png'); /* NEW: Header background image requested by user */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -669,7 +668,7 @@ pre code {
     background: #FDF1DC;
     border: 2px solid #58180D;
     border-radius: 8px;
-    padding: 1.0em;
+    padding: 0.5em;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
