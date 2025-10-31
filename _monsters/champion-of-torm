@@ -4,14 +4,18 @@ title: Champion of Torm
 cr: 10
 type: Medium Humanoid, Lawful Good
 category: Humanoids
+image: /assets/images/champion-of-torm.jpg
+image_credit: "Art by [Artist Name - placeholder]"
 description: |
   A Champion of Torm is a holy warrior, a paragon of duty, loyalty, and self-sacrifice. Clad in heavy armor and wielding a greatsword infused with divine radiance, they stand as unwavering bulwarks against chaos and evil.
   
+  Champions of Torm represent the military might behind the various orders that worship Torm. These steadfast champions are sent throughout Faerûn, and wherever they go they shine as beacons of hope and courage. They value honesty, loyalty, and truth above all else. They offer aide to all those in need. Often times the individual champions will be on some form of penance, seeking to do good in the world for a past event they blame themselves for.
+  
   #### Habitat
-  Champions of Torm are found wherever the innocent are threatened or where duty calls. They often serve in temples, lead militias, or venture out into the world to uphold the tenets of their god.
+  Champions of Torm are found wherever the innocent are threatened or where duty calls. They often serve in temples, lead militias, or venture out into the world to uphold the tenets of their god. Their other duty is to find and destroy any cults of Cyric and Bane, and to locate and record any areas of dead/wild magic.
   
   #### Combat Tactics
-  The Champion uses **Torm's Blessing** to deliver devastating radiant strikes with their greatsword. They rely on **Steadfast** to keep morale high and their **Spellcasting** to support allies with *Bless* and protect themselves with *Spirit Guardians*. Their **Parry** reaction makes them extremely difficult to defeat in melee.
+  The Champion uses **Torm's Blessing** to deliver devastating radiant strikes with their greatsword. They rely on **Steadfast** to keep morale high and their **Spellcasting** to support allies with *Bless* and protect themselves with *Spirit Guardians*. Their **Parry** reaction makes them extremely difficult to defeat in melee. They are able to call upon the blessing of Torm to infuse their strikes with radiant energy, and to **heal** when needed.
 ---
 
 ___
@@ -43,7 +47,7 @@ ___
 > * 2nd level (3 slots): *Calm Emotions, Lesser Restoration, Spiritual Weapon*
 > * 3rd level (2 slots): *Beacon of Hope, Spirit Guardians*
 >
-> ***Steadfast.*** The Champion can't be Frightened when he can see an allied creature within 30 feet.
+> ***Steadfast.*** The Champion can't be **Frightened** when he can see an allied creature within 30 feet.
 >
 > ***Torm's Blessing.*** The Champion's weapon attacks are magical. When the Champion hits with any weapon, the weapon deals an extra 2d6 radiant damage (included in the attack).
 >
