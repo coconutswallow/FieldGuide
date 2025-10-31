@@ -3,7 +3,7 @@ layout: statblock
 title: Figgy Pudding
 cr: 7
 type: Medium Ooze, Unaligned
-category: XMash 2020
+category: 3 XMash 2020
 image: https://i.imgur.com/YvLhmXw.png
 image_credit: "Art source unknown"
 description: |

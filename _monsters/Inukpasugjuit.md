@@ -3,7 +3,7 @@ layout: statblock
 title: Inukpasugjuit
 cr: 8
 type: Huge Giant, Neutral Evil
-category: XMash 2020
+category: 3 XMash 2020
 image: https://i.pinimg.com/originals/ca/bd/9b/cabd9b4b51ffdd9007c12544c8a3c70b.jpg
 image_credit: "Art source unknown"
 description: |

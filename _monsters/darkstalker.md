@@ -3,7 +3,7 @@ layout: statblock
 title: Dark Stalker
 cr: 9
 type: Huge Monstrosity, Neutral Evil
-category: Monstrosities
+category: 2 Spooktober 2019
 image: https://cdn.discordapp.com/attachments/477473509405097984/534259330741174283/abomination.png
 description: |
   The **Dark Stalker** is an evil, massive arachnid-like being that has a hatred for the sun, tending to stick to the shadows, lying in wait for unsuspecting prey to walk by. Dark stalkers are drawn to other evil beings of greater power and are often used as assassins by their "master."

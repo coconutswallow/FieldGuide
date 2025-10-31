@@ -3,7 +3,7 @@ layout: statblock
 title: Jack Frost
 cr: 11
 type: Small Fey (Shapechanger), Neutral Evil
-category: XMash 2020
+category: 3 XMash 2020
 image: https://i.imgur.com/RVaHjr8.png
 image_credit: "Art source unknown"
 description: |

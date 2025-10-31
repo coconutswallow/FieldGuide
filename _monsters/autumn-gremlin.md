@@ -3,7 +3,7 @@ layout: statblock
 title: Autumn Gremlin
 cr: 4
 type: Medium Fey, Chaotic Neutral
-category: Fey
+category: 2 Spooktober 2019
 image: /assets/images/autumn-gremlin.jpg
 image_credit: "Art by [Artist Name - placeholder]"
 description: |

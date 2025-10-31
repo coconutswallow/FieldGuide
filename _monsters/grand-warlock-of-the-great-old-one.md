@@ -3,7 +3,7 @@ layout: statblock
 title: Grand Warlock of the Great Old One
 cr: 8
 type: Medium Humanoid (any race), Any Alignment
-category: Hawthorne Homebrew
+category: 1 Hawthorne Homebrew
 
 description: |
   The Grand Warlock is a highly-placed and heavily favored servant of a powerful entity from the Far Realm, dedicating their life to the pursuit of forbidden knowledge and cosmic power. They often appear calm and charismatic, but their eyes hold the terrifying knowledge of the void, and their mind is a shield against all psychic intrusion.

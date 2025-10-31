@@ -3,7 +3,7 @@ layout: statblock
 title: Bouncy Ghost
 cr: 10
 type: Medium Undead, Any Alignment
-category: Spooktober 2019
+category: 2 Spooktober 2019
 
 
 description: |

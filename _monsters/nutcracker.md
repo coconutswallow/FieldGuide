@@ -3,7 +3,7 @@ layout: statblock
 title: The Nutcracker
 cr: 2
 type: Tiny Construct, Chaotic Good (50%) or Chaotic Evil (50%)
-category: XMash 2020
+category: 3 XMash 2020
 image: https://media.discordapp.net/attachments/429646567511687178/780200053854961664/image0.png
 
 description: |

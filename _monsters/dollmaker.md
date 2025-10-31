@@ -3,7 +3,7 @@ layout: statblock
 title: The Dollmaker
 cr: 10
 type: Medium Fiend (Shapechanger), Chaotic Evil
-category: Fiends
+category: 1 Hawthorne Homebrew
 
 description: |
   The Dollmaker is a creature of unnatural origin, corrupted by the energies of the **Far Realm** and the evil darkness of the **Shadowfell**. It is a cackling fiend that revels in the macabre art of transforming victims' souls into malicious porcelain dolls.

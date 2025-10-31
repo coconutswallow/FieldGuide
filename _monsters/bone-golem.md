@@ -3,7 +3,7 @@ layout: statblock
 title: Bone Golem
 cr: 10
 type: Huge Construct, Unaligned
-category: Hawthorne Monster
+category: 1 Hawthorne Homebrew
 description: |
   The Bone Golem is a towering, fearsome construct animated by dark magic and built from the skeletal remains of countless creatures. It is relentless, serving the will of its creator without question.
   

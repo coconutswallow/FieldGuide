@@ -3,7 +3,7 @@ layout: statblock
 title: The Wendigo
 cr: 9
 type: Large Monstrosity, Chaotic Evil
-category: Spooktober 2019
+category: 2 Spooktober 2019
 image: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8ab86111-40c3-4c11-abf4-2c512a9b3c9d/dc1t8em-bafce86d-cece-47e3-a7ef-e13829422997.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhYjg2MTExLTQwYzMtNGMxMS1hYmY0LTJjNTEyYTliM2M5ZFwvZGMxdDhlbS1iYWZjZTg2ZC1jZWNlLTQ3ZTMtYTdlZi1lMTM4Mjk0MjI5OTcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IIXEKqaaWS5Tyxdux7kYPOvn40MNAgaXyjUU6ka54Lc
 
 description: |

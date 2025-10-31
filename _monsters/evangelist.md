@@ -3,7 +3,7 @@ layout: statblock
 title: Evangelist
 cr: 3
 type: Medium Undead, Lawful Evil
-category: Hawthorne Homebrew
+category: 1 Hawthorne Homebrew
 description: |
   An Evangelist is a cruel, cunning undead that clings to the remnants of its worldly zealotry. Unlike mindless zombies, this undead entity wields both martial training and dark arcane power, often serving as a devoted and manipulative preacher of its dark god or creator.
   

@@ -3,7 +3,7 @@ layout: statblock
 title: The Cookie Spooder
 cr: 1/4
 type: Tiny Monstrosity, Neutral Good
-category: Monstrosities
+category: 2 Spooktober 2019
 image: https://cdn.discordapp.com/attachments/412330916640325652/622462533868978195/9df559bb4b8e0aec1c50754bb7a7cce5_original.png
 
 description: |

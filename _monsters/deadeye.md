@@ -3,7 +3,7 @@ layout: statblock
 title: Deadeye
 cr: 6
 type: Medium Undead, Lawful Evil
-category: Undead
+category: 2 Spooktober 2019
 
 description: |
   **Deadeyes** are made from the souls of mortals claimed by devils. A devil imbues the soul into a corpse in the Material Plane, assigning it a bounty—a mortal who cheated the devil out of a contract. The deadeye reclaims its mortal body, superficially resembling a zombie, but its sockets burn with hellfire that flares brightly in the presence of its target. The bounty always recognizes that the deadeye has been sent to slay it.

@@ -3,7 +3,7 @@ layout: statblock
 title: Playful Pulp
 cr: 0
 type: Small Ooze, Unaligned
-category: Hawthorne Homebrew
+category: 1 Hawthorne Homebrew
 description: |
   The Playful Pulp is a bizarre and terrifyingly cheerful ooze, appearing as a small, brightly-colored blob with a disturbing, high-energy presence. Driven not by malice but by a hyper-emotional, chaotic need for "play," it seeks to grapple and tickle victims into helpless laughter while its euphoric feeding sustains it. Despite its small size, its resilience and charming abilities make it a deceptively sticky encounter.
   

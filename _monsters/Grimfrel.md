@@ -3,7 +3,7 @@ layout: statblock
 title: Grimfrel
 cr: 11
 type: Large Fey, Neutral Evil
-category: XMash 2020
+category: 3 XMash 2020
 image: https://64.media.tumblr.com/2c84e388a2d332a7de370f7fe06e5b00/6ead6ada3aa8f8d2-a5/s2048x3072/92fc829976206fcd6cf39656160827550fb41312.png
 image_credit: "Art source unknown"
 description: |

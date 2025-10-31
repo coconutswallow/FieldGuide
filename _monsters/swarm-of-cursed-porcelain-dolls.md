@@ -3,7 +3,7 @@ layout: statblock
 title: Swarm of Cursed Porcelain Dolls
 cr: 4
 type: Medium Swarm of Small Constructs, Chaotic Evil
-category: Constructs
+category: 1 Hawthorne Homebrew
 description: |
   A Swarm of Cursed Porcelain Dolls is an unnatural tide of malicious toys, animated by a collective, hateful consciousness. They scuttle and clatter across the ground, a terrifying force that seeks to overwhelm and paralyze victims with sheer terror.
   

@@ -3,7 +3,7 @@ layout: statblock
 title: Cartilcage
 cr: 7
 type: Medium Undead, Lawful Evil
-category: Hawthorne Homebrew
+category: 1 Hawthorne Homebrew
 description: |
   A Cartilcage is a horrific undead entity, appearing as an animate, interlocking cage of cartilage and bone. It is an insidious creature that seeks to bind itself to living hosts, sharing damage and terrorizing its victims with unnerving sounds.
   

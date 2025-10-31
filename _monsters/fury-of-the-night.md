@@ -3,7 +3,7 @@ layout: statblock
 title: Fury of the Night
 cr: 10
 type: Large Monstrosity, Chaotic Evil
-category: Monstrosities
+category: 1 Hawthorne Homebrew
 
 description: |
   A Fury of the Night is a horrifying, predatory monstrosity that glides through the darkness, an apex hunter defined by its raw power and terrifying presence. It is a large, winged beast whose skin and wings blend seamlessly with the shadows, making it nearly invisible against the night sky.

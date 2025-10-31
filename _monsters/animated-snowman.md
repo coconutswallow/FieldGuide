@@ -3,7 +3,7 @@ layout: statblock
 title: Animated Snowman
 cr: 7
 type: Medium Construct, Neutral
-category: XMash 2020
+category: 3 XMash 2020
 image: https://media.discordapp.net/attachments/506637481144352817/780173954979463218/9k.png
 
 description: |
