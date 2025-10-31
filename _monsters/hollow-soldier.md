@@ -3,7 +3,7 @@ layout: statblock
 title: Hollow Soldier
 cr: 1
 type: Medium Undead, Neutral Evil
-category: Hawthorne Homebrew
+category: 1 Hawthorne Homebrew
 
 description: |
   A Hollow Soldier is a common undead infantryman, its husk clad in faded armor and driven by the lingering military discipline it held in life. Though slow-witted, it is capable of wielding multiple weapons and utilizing tactical gear, making it a more significant threat than a basic zombie.

@@ -3,7 +3,7 @@ layout: statblock
 title: Bringer of Misery
 cr: 10
 type: Medium Undead, Chaotic Evil
-category: Undead
+category: 2 Spooktober 2019
 image: https://i.redd.it/jn72nbc54dnz.jpg
 description: |
   The **Bringer of Misery** is a terrifying, shadowy undead creature born from a person who died in the Shadowfell, consumed by hopelessness and despair. When they finally die, their ghost returns twisted by the plane into a bringer of misery, seeking to return to the Material Plane and make everyone as miserable as they were at the end of their life.
