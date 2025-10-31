@@ -376,7 +376,7 @@ pre code {
 
 .site-header {
     /* UPDATED: Set background image and properties */
-    background-size: cover;
+    wbackground-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem 0;

@@ -3,7 +3,7 @@ layout: statblock
 title: Skinner
 cr: 10
 type: Huge Monstrosity, Neutral Evil
-category: Monstrosities
+category: Spooktober 2019
 image: https://i.imgur.com/u1WQMI6.png
 
 description: |

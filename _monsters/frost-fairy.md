@@ -3,7 +3,7 @@ layout: statblock
 title: Frost Fairy
 cr: 4
 type: Tiny Fey, Chaotic Evil
-category: Fey
+category: XMash 2020
 image: https://media.discordapp.net/attachments/545469768426323979/778020599896211486/SPOILER_SPOILER_image0.png
 
 description: |

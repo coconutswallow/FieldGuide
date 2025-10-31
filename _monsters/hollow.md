@@ -3,7 +3,7 @@ layout: statblock
 title: Hollow
 cr: 1/4
 type: Medium Undead, Neutral Evil
-category: Undead
+category: Hawthorne Homebrew
 
 description: |
   A Hollow is a form of undead animated not by a malevolent spirit, but by a lingering, desperate impulse to fight. It appears as a skeletal or emaciated figure in tattered gear, driven by the echoes of a life once lived, yet lacking any true mind or soul.

@@ -3,7 +3,7 @@ layout: statblock
 title: Chaos Hound
 cr: 10
 type: Large Fiend, Chaotic Evil
-category: Fiends
+category: Hawthorne Homebrew
 image: /assets/images/chaos-hound.jpg
 image_credit: "Art by [Artist Name - placeholder]"
 description: |

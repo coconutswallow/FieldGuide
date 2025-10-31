@@ -3,7 +3,7 @@ layout: statblock
 title: Fallanox
 cr: 3
 type: Large Monstrosity, Unaligned
-category: Monstrosities
+category: Hawthorne Homebrew
 description: |
   The Fallanox is a repulsive, two-headed monstrosity that resembles an enormous, bloated spider. Driven by primal hunger, it uses potent paralyzing venom and deceptive tactics to ambush and consume prey. Its two heads grant it exceptional awareness and resilience.
   

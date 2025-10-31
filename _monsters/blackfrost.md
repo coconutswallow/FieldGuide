@@ -3,7 +3,7 @@ layout: statblock
 title: Blackfrost
 cr: 12
 type: Medium Undead, Chaotic Evil
-category: Undead
+category: XMash 2020
 image: https://staticdelivery.nexusmods.com/mods/952/images/thumbnails/3612/3612-1554443504-460856515.png
 image_credit: "Art source unknown"
 description: |

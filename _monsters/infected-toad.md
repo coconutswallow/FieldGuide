@@ -3,7 +3,7 @@ layout: statblock
 title: Infected Toad
 cr: 8
 type: Huge Beast, Unaligned
-category: Beasts
+category: Hawthorne Homebrew
 
 description: |
   The Infected Toad is a gigantic amphibian, mutated by an unknown contagion or blight into a monstrous predator. Its skin is a slick, festering mass that constantly oozes toxic spores, making it a walking hazard. It is driven by relentless, primal hunger, seeking to incapacitate and consume any creature it encounters.

@@ -3,7 +3,7 @@ layout: statblock
 title: Cursed Porcelain Doll
 cr: 1
 type: Small Construct, Chaotic Evil
-category: Constructs
+category: Hawthorne Homebrew
 description: |
   The Cursed Porcelain Doll is a deceptively fragile-looking toy animated by a malicious, chaotic spirit. It is a small, unnerving killer that seeks to terrify and incapacitate victims before destroying them.
   
