@@ -4,8 +4,7 @@ title: Annum
 cr: 2
 type: Small Aberration, Neutral
 category: Aberration
-image: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bbb6ca82-46b9-4703-9611-23f28adacbce/d74weae-dfc3a8c9-2238-4b73-8ca7-eeb43af26fc7.png/v1/fill/w_894,h_894,q_70,strp/munna___nightmare_mist_by_stilith_d74weae-pre.jpg
-image_credit: "Art by Stilith on DeviantArt"
+
 description: |
   Annums are strange, floating aberrations spawned from the dreams of an eternally hungry beholder. Born from psychic energy, these creatures feed upon dreams, leaving behind a fog tinted by the emotions they consume. Pink mist trails from pleasant dreams, while black vapor follows the nightmares they devour.
   
