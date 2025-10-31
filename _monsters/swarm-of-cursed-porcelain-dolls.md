@@ -1,6 +1,6 @@
 ---
 layout: statblock
-title: Swarm of Cursed Porcelain Dolls
+title: Cursed Porcelain Dolls, Swarm of
 cr: 4
 type: Medium Swarm of Small Constructs, Chaotic Evil
 category: 1 Hawthorne Homebrew
