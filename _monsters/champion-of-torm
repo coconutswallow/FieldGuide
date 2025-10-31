@@ -1,0 +1,60 @@
+---
+layout: statblock
+title: Champion of Torm
+cr: 10
+type: Medium Humanoid, Lawful Good
+category: Humanoids
+description: |
+  A Champion of Torm is a holy warrior, a paragon of duty, loyalty, and self-sacrifice. Clad in heavy armor and wielding a greatsword infused with divine radiance, they stand as unwavering bulwarks against chaos and evil.
+  
+  #### Habitat
+  Champions of Torm are found wherever the innocent are threatened or where duty calls. They often serve in temples, lead militias, or venture out into the world to uphold the tenets of their god.
+  
+  #### Combat Tactics
+  The Champion uses **Torm's Blessing** to deliver devastating radiant strikes with their greatsword. They rely on **Steadfast** to keep morale high and their **Spellcasting** to support allies with *Bless* and protect themselves with *Spirit Guardians*. Their **Parry** reaction makes them extremely difficult to defeat in melee.
+---
+
+___
+> ## Champion of Torm
+> *Medium Humanoid, Lawful Good*
+> 
+> **AC** 18 (plate armor) **HP** 136 (16d8 + 64) **Speed** 30 ft.
+> 
+> **Initiative** +2 (15)
+>
+> | | | MOD | SAVE | | | MOD | SAVE | | | MOD | SAVE |
+> |:--|:-:|:----:|:----:|:--|:-:|:----:|:----:|:--|:-:|:----:|:----:|
+> |Str| 18| +4 | +4 |Dex| 15| +2 | **+6** |Con| 18| +4 | +4 |
+> |Int| 14| +2 | +2 |Wis| 18| +4 | **+8** |Cha| 15| +2 | +2 |
+>
+> **Skills** Athletics +8, Perception +8  
+> **Resistances** Bludgeoning, Piercing, and Slashing from nonmagical weapons  
+> **Senses** Passive Perception 18  
+> **Languages** Common  
+> **CR** 10 (XP 5,900; PB +4)
+>
+> ### Traits
+>
+> ***Indomitable (2/day).*** The Champion rerolls a failed saving throw.
+>
+> ***Spellcasting.*** The Champion is a 5th-level spellcaster. Its spellcasting ability is Wisdom (save DC 16, +8 to hit with spell attacks). The Champion has the following cleric spells prepared:
+> * Cantrips (at will): *guidance, light, spare the dying, thaumaturgy*
+> * 1st level (4 slots): *Bless, Command, Guiding Bolt, Shield of Faith*
+> * 2nd level (3 slots): *Calm Emotions, Lesser Restoration, Spiritual Weapon*
+> * 3rd level (2 slots): *Beacon of Hope, Spirit Guardians*
+>
+> ***Steadfast.*** The Champion can't be Frightened when he can see an allied creature within 30 feet.
+>
+> ***Torm's Blessing.*** The Champion's weapon attacks are magical. When the Champion hits with any weapon, the weapon deals an extra 2d6 radiant damage (included in the attack).
+>
+> ### Actions
+>
+> ***Multiattack.*** The Champion makes three attacks with its greatsword.
+>
+> ***Duty's Bond (Greatsword).*** *Melee Attack Roll:* +8, reach 5ft., one target. *Hit:* 12 (2d6 + 4) Slashing damage, plus 7 (2d6) Radiant damage.
+>
+> ***Healing Touch (2/day).*** The Champion touches a creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+>
+> ### Reactions
+>
+> ***Parry.*** The Champion adds 4 to its AC against one melee attack that would hit it. To do so, he must see the attacker and be wielding a melee weapon.
