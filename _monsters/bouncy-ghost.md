@@ -4,7 +4,7 @@ title: Bouncy Ghost
 cr: 10
 type: Medium Undead, Any Alignment
 category: Undead
-image: https://cdn.discordapp.com/attachments/420068207177498624/785288095011962910/unknown.png
+
 
 description: |
   The **Bouncy Ghost** is a restless undead creature driven by a singular, unfulfillable instinct: to return to a better life than the one it had when it died. Unlike other ghosts, it does not seek to fulfill a task or desire to pass on; it simply demands life itself.
