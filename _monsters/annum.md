@@ -3,7 +3,7 @@ layout: statblock
 title: Annum
 cr: 2
 type: Small Aberration, Neutral
-category: Aberration
+category: Dream Mash 2021
 
 description: |
   Annums are strange, floating aberrations spawned from the dreams of an eternally hungry beholder. Born from psychic energy, these creatures feed upon dreams, leaving behind a fog tinted by the emotions they consume. Pink mist trails from pleasant dreams, while black vapor follows the nightmares they devour.

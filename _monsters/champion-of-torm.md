@@ -3,7 +3,7 @@ layout: statblock
 title: Champion of Torm
 cr: 10
 type: Medium Humanoid, Lawful Good
-category: Humanoids
+category: Hawthorne Homebrew
 
 description: |
   The **Champion of Torm** represents the military might and unwavering conviction of the various orders that worship the deity of duty and loyalty. These champions are sent throughout the world as beacons of hope and courage.
