@@ -4,14 +4,18 @@ title: Autumn Gremlin
 cr: 4
 type: Medium Fey, Chaotic Neutral
 category: Fey
+image: /assets/images/autumn-gremlin.jpg
+image_credit: "Art by [Artist Name - placeholder]"
 description: |
-  Gremlins of the Autumn Court are called upon when their masters need a creepy and crawly creature to ambush a nuisance. They are larger, stronger, and more intimidating than their smaller boggle cousins. The transformation into this creature renders them **blind**, forcing them to learn to lurk in dark caves and scurry their way through the earth, relying on their other powerful senses.
+  Gremlins of the **Autumn Court** are called upon when their masters need a creepy and crawly creature to ambush a nuisance. They are larger, stronger, and more intimidating than their smaller boggle cousins. It is rumored that boggles that achieve great service to the Court are transformed into these beings. The transformation renders them **blind**, and they learn to lurk in dark caves and scurry their way through the earth, relying on their other powerful senses.
   
+  Gremlins are by nature mischievous, but they can often turn malicious. When left to their own devices, they will play increasingly cruel tricks on their victims. At first, things will go missing, then animals in the area will begin to seem skittish as the autumn gremlins prod them through tunnels. Eventually, whole communities will go missing with the only thing left being upturned earth in the last place they were seen.
+
   #### Habitat
   These powerful fey creatures lurk primarily in natural settings such as dark caves, ruins, and areas with loose dirt or unworked stone where they can use their burrow speed and **Stone Camouflage**. They prefer environments that allow them to use their dimensional rift ability, **Scurry**, for ambush attacks.
   
   #### Combat Tactics
-  The Autumn Gremlin is a master of teleportation and environmental control. It uses **Scurry** to rapidly maneuver into position, then relies on **Gremlin Swarm** for advantage on attacks if an ally is near. Its first move is often **Dust Cloud** to **blind** opponents, followed by **Cave In** to restrain smaller targets by collapsing the ground beneath them. Its **Multiattack** allows it to deploy a mix of ranged attacks (**Dart**) and melee strikes (**Greataxe** or **Bite**).
+  The Autumn Gremlin is a master of teleportation and environmental control. It leverages its ability to **burrow fast through the ground** and uses **Scurry** to rapidly maneuver into position. It often opens combat by using **Dust Cloud** to **blind** opponents, then follows up with **Cave In** to restrain smaller targets by collapsing the ground beneath them. Its **Multiattack** allows it to deploy a mix of ranged attacks (**Dart**) and melee strikes (**Greataxe** or **Bite**), often gaining advantage from **Gremlin Swarm** if allies are present.
 ---
 
 ___
