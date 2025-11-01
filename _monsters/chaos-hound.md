@@ -4,9 +4,8 @@ title: Chaos Hound
 cr: 10
 type: Large Fiend, Chaotic Evil
 category: 1 Hawthorne Homebrew
-image: /assets/images/chaos-hound.jpg
-image_credit: "Art by [Artist Name - placeholder]"
 description: |
+  ## Chaos Hound
   Putrid fiends that resemble decaying dogs, **chaos hounds** are found throughout the Abyss and other parts of the Lower Planes. On the Material Plane, they are most commonly seen in the service of powerful demons and other evil creatures that use them as trackers and hunters.
   
   ### Crawling Flesh
@@ -14,12 +13,6 @@ description: |
   
   ### Relentless Trackers
   Chaos hounds are vicious fiends that **relentlessly track** their prey. Once they have the scent of a target, they will not stop until they are slain or their prey is consumed. When the chaos hound devours its target, it not only consumes the flesh but also the **soul**.
-  
-  #### Habitat
-  Chaos hounds are typically found in the **Abyss** and other Lower Planes, or serving powerful masters on the Material Plane as trackers and hunters.
-  
-  #### Combat Tactics
-  The chaos hound begins combat with its **Terrifying Howl** to sow fear, then closes in for **Bite** attacks, relying on its **Corrosive Body** to punish melee fighters. It uses its **Acid Breath** to hit multiple foes and its **Insubstantial** nature to disengage freely. The stench it gives off works to poison nearby creatures, softening them up for attack. Its ultimate goal is to devour the corpse and **soul** of a humanoid victim.
 ---
 
 ___
