@@ -14,11 +14,9 @@ layout: default
         {{ content }}
 
         {% if page.creator %}
-        <hr class="statblock-divider">
         <div class="statblock-creator">
-            **Creator:** {{ page.creator }}
+            <strong>Creator:</strong> {{ page.creator }}
         </div>
-        <hr class="statblock-divider">
         {% endif %}
 
         {% if page.image %}

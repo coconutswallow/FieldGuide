@@ -273,14 +273,22 @@ blockquote hr {
 }
 
 .statblock-creator {
-    /* Style for the Creator text itself */
-    font-size: 0.85em;
+    font-family: var(--font-body);
+    font-size: 0.9em;
     font-style: italic;
-    color: #666; /* Light gray text */
-    padding: 5px 0;
+    color: #58180D;
+    padding: 5px 20px;
+    margin: 8px 8px; /* Match the blockquote margin of 8px */
     text-align: center;
+    background-color: #FDF1DC; 
+    
+    /* ADDED: Borders to mimic the existing stat block HRs */
+    border-top: 1.5px solid #58180D;
+    border-bottom: 1.5px solid #58180D;
+    
+    /* Ensure the padding from the blockquote is accounted for if placed outside */
+    width: calc(100% - 16px);
 }
-
 .statblock-divider {
     /* Style for the HR tag (horizontal rule) */
     border: 0;
