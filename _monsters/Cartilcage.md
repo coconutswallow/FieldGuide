@@ -4,14 +4,9 @@ title: Cartilcage
 cr: 7
 type: Medium Undead, Lawful Evil
 category: 1 Hawthorne Homebrew
-description: |
-  A Cartilcage is a horrific undead entity, appearing as an animate, interlocking cage of cartilage and bone. It is an insidious creature that seeks to bind itself to living hosts, sharing damage and terrorizing its victims with unnerving sounds.
-  
-  #### Habitat
-  Cartilcages are often found in ruins, crypts, and any location where necromantic rituals have been performed. They are patient predators, content to wait in dark corners, appearing as mere piles of scattered bones.
-  
-  #### Combat Tactics
-  The Cartilcage relies on its **Bind** attack to attach itself to a victim, turning the fight into a terrifying tug-of-war using its **Damage Transfer** trait. It uses its **Chatter** to frighten and control multiple foes before closing in.
+description: | 
+  Creation by Falky44
+
 ---
 
 ___

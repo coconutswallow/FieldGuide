@@ -5,13 +5,7 @@ cr: 10
 type: Huge Construct, Unaligned
 category: 1 Hawthorne Homebrew
 description: |
-  The Bone Golem is a towering, fearsome construct animated by dark magic and built from the skeletal remains of countless creatures. It is relentless, serving the will of its creator without question.
-  
-  #### Habitat
-  Bone Golems are typically found guarding tombs, fortresses, or laboratories where their creators reside, or in areas permeated by potent necromantic energy.
-  
-  #### Combat Tactics
-  The golem will immediately seek to **imprison** a dangerous foe with its **Bone Prison** before closing in to deliver crushing **Slam** attacks. Its **Necrotic Absorption** makes it a specialized terror against enemies using necrotic energy.
+  Creation by Falky44
 ---
 
 ___

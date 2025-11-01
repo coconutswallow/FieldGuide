@@ -6,6 +6,8 @@ type: Medium Monstrosity, Neutral Evil
 category: 1 Hawthorne Homebrew
 image: https://cdnb.artstation.com/p/assets/images/images/000/247/751/large/fenghua-zhong-monstrosity.jpg?1443929572
 image_credit: "Art by Fenghua Zhong"
+Description: |
+  Creation by km.d
 ---
 
 ___
