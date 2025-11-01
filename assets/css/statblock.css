@@ -272,11 +272,29 @@ blockquote hr {
     margin: 8px 8px;
 }
 
-/* ------------------------------------------- */
-/* NEW STYLES FOR AFTER-STATBLOCK CONTENT (Request 1) */
-/* ------------------------------------------- */
+.statblock-creator {
+    /* Style for the Creator text itself */
+    font-size: 0.85em;
+    font-style: italic;
+    color: #666; /* Light gray text */
+    padding: 5px 0;
+    text-align: center;
+}
 
+.statblock-divider {
+    /* Style for the HR tag (horizontal rule) */
+    border: 0;
+    height: 1px;
+    background: #ccc; /* Light gray line */
+    margin: 10px 0;
+}
 
+/* Specific styling for the HR tags used around the creator */
+.page > .statblock-divider:first-of-type {
+    /* Optional: If you want the first divider to look different, 
+       this targets the one just before the creator box. */
+    margin-top: 20px;
+}
 /* Image Container */
 .monster-image-container {
     width: 100%;

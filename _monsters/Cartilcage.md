@@ -4,9 +4,7 @@ title: Cartilcage
 cr: 7
 type: Medium Undead, Lawful Evil
 category: 1 Hawthorne Homebrew
-description: | 
-  Creation by Falky44
-
+creator: Falky44
 ---
 
 ___

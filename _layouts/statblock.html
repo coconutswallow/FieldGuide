@@ -7,16 +7,19 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <!-- Note: We keep the CSS link here in case this file is used without 'default' layout -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/statblock.css">
 </head>
 <body>
-    <!-- The entire <header> block and its contents were REMOVED to eliminate duplicates and fix the unresponsive menu. 
-         The functional header is now provided solely by default.html. -->
-    
-    <!-- Main Content -->
     <div class="page">
         {{ content }}
+
+        {% if page.creator %}
+        <hr class="statblock-divider">
+        <div class="statblock-creator">
+            **Creator:** {{ page.creator }}
+        </div>
+        <hr class="statblock-divider">
+        {% endif %}
 
         {% if page.image %}
         <div class="monster-image-container">
@@ -34,6 +37,5 @@ layout: default
         {% endif %}
     </div>
     
-    <!-- JAVASCRIPT FOR MENU INTERACTION WAS REMOVED. It now runs only once from default.html, eliminating the conflict. -->
-</body>
+    </body>
 </html>
