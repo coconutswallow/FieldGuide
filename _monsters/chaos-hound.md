@@ -13,6 +13,9 @@ description: |
   
   ### Relentless Trackers
   Chaos hounds are vicious fiends that **relentlessly track** their prey. Once they have the scent of a target, they will not stop until they are slain or their prey is consumed. When the chaos hound devours its target, it not only consumes the flesh but also the **soul**.
+
+  ### Devourer of Souls
+  A chaos hound may feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both the flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the chaos hound for 24 hours, after which time it is digested. If the chaos hound dies before the soul is digested, the soul is released. While a humanoid's soul is trapped in a chaos hound, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the chaos hound if it is successful. Once a creature's soul is digested, however, the creature may only be returned to life by a wish spell or divine intervention.
 ---
 
 ___

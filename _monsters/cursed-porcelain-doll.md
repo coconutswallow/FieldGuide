@@ -3,15 +3,7 @@ layout: statblock
 title: Cursed Porcelain Doll
 cr: 1
 type: Small Construct, Chaotic Evil
-category: 1 Hawthorne Homebrew
-description: |
-  The Cursed Porcelain Doll is a deceptively fragile-looking toy animated by a malicious, chaotic spirit. It is a small, unnerving killer that seeks to terrify and incapacitate victims before destroying them.
-  
-  #### Habitat
-  These dolls are often found in the homes of unwary collectors, toy shops, or abandoned manor houses. They gravitate toward places where they can remain motionless and appear harmless, waiting for a victim.
-  
-  #### Combat Tactics
-  The doll uses its **False Appearance** to hide until the last moment. It initiates combat by attempting to use its **Terrifying Glare** to paralyze a single enemy, followed by **Claw** attacks to frighten and incapacitate others. Its vulnerability to **thunder** damage suggests a weakness to loud, concussive force.
+category: 1 Hawthorne Homebrew  
 ---
 
 ___

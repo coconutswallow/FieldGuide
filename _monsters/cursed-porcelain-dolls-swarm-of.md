@@ -4,14 +4,6 @@ title: Cursed Porcelain Dolls, Swarm of
 cr: 4
 type: Medium Swarm of Small Constructs, Chaotic Evil
 category: 1 Hawthorne Homebrew
-description: |
-  A Swarm of Cursed Porcelain Dolls is an unnatural tide of malicious toys, animated by a collective, hateful consciousness. They scuttle and clatter across the ground, a terrifying force that seeks to overwhelm and paralyze victims with sheer terror.
-  
-  #### Habitat
-  These swarms typically form in large, abandoned collections, toy warehouses, or the haunted nurseries of powerful necromancers or fiends. They are often encountered when a single doll's malignant power draws others to it.
-  
-  #### Combat Tactics
-  The swarm relies on its **Fear Aura** to frighten enemies that start too close, and its **Swarm** trait allows it to attack targets even when occupying their space. Its single **Claw** attack hits for a large amount of slashing damage, and even at half health, the strike is potent and carries the risk of frightening the target. It is, however, extremely vulnerable to **thunder** damage, which can shatter its components.
 ---
 
 ___

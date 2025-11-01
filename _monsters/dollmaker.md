@@ -6,15 +6,8 @@ type: Medium Fiend (Shapechanger), Chaotic Evil
 category: 1 Hawthorne Homebrew
 
 description: |
-  The Dollmaker is a creature of unnatural origin, corrupted by the energies of the **Far Realm** and the evil darkness of the **Shadowfell**. It is a cackling fiend that revels in the macabre art of transforming victims' souls into malicious porcelain dolls.
-  
-  It takes on a harmless form, often that of a small child, and lures victims in. Once it has established a relationship, it drains their life essence, and places what remains of the soul into a porcelain figure that it conjures. The dolls it creates are then sold to local villages and small towns, where they attach themselves to a small child or other vulnerable individual. Over time, they form a bond with the child, turning them against their parents and convincing them to do dark things. After the bond has been solidified, the doll brings the child to *The Dollmaker*, where they will be turned into a doll themselves.
-  
-  #### Habitat
-  This fiend is often found posing as an eccentric toymaker or a charismatic, harmless individual in **civilized areas**, where it can easily lure and isolate victims. Its true lair is typically a grotesque workshop filled with its animated, cursed doll creations.
-  
-  #### Combat Tactics
-  The Dollmaker leverages its **Shapechanger** ability and **Ambusher** trait to gain the advantage in the first round of combat. It prioritizes using its **Life Drain** to reduce a target's hit point maximum, aiming for a permanent kill that can fuel its **Create Doll** action. It uses its **Frightening Gaze** reaction to control key enemies and relies on **Magic Resistance** to shrug off spells. Its **Legendary Actions** allow it to remain highly mobile and deadly outside of its turn.
+## Pain and Porcelain
+The Dollmaker is a creature of unnatural origin, corrupted by the energies of the Far Realm and the evil darkness of the Shadowfell. It takes on a harmless form, often that of a small child, and lures victims in. Once it has established a relationship, it drains their life essence, and places what remains of the soul into a porcelain figure that it conjures to its clawed hand. The dolls that it creates are then sold to local villages and small towns, where they attach themselves to a small child or other vulnerable individual. Over time, they form a bond with the child, turning them against their parents. They convince the child to do dark things, such as conjure demons or bring harm to innocents. It provides guidance on these matters. After the bond has been solidified, the doll brings the child to *The dollmaker*, where they will be turned into a doll themselves.
 ---
 
 ___
