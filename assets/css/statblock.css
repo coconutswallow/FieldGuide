@@ -272,23 +272,30 @@ blockquote hr {
     margin: 8px 8px;
 }
 
+/* ------------------------------------------- */
+/* NEW STYLES FOR AFTER-STATBLOCK CONTENT (Request 1) */
+/* ------------------------------------------- */
+
 .statblock-creator {
     font-family: var(--font-body);
     font-size: 0.9em;
     font-style: italic;
     color: #58180D;
-    padding: 5px 20px;
-    margin: 8px 8px; /* Match the blockquote margin of 8px */
-    text-align: center;
-    background-color: #FDF1DC; 
+    /* Adjusted padding to match other statblock elements */
+    padding: 5px 8px; 
+    margin: 8px 8px;
+    text-align: center; /* Centered text */
     
-    /* ADDED: Borders to mimic the existing stat block HRs */
+    /* Kept border-top to separate it from the content above */
     border-top: 1.5px solid #58180D;
-    border-bottom: 1.5px solid #58180D;
+    /* Removed bottom border as requested */
+    border-bottom: none; 
+    /* Removed background-color */
     
-    /* Ensure the padding from the blockquote is accounted for if placed outside */
+    /* Ensures the element is flush with the sides of the blockquote area */
     width: calc(100% - 16px);
 }
+    
 .statblock-divider {
     /* Style for the HR tag (horizontal rule) */
     border: 0;
@@ -316,6 +323,13 @@ blockquote hr {
     border: 5px solid #58180D; /* Thematic border */
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-credit {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+    margin-top: 0.5em;
 }
 
 /* General tables outside stat blocks */
@@ -402,7 +416,7 @@ pre code {
 
 .site-header {
     /* UPDATED: Set background image and properties */
-    wbackground-size: cover;
+    background-size: cover; /* Corrected typo 'wbackground-size' */
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem 0;
