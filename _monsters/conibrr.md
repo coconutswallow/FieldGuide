@@ -3,7 +3,7 @@ layout: statblock
 title: Conibrr
 cr: 10
 type: Huge Plant, Neutral Evil
-category: 3 XMash 2020
+category: 2014 Fair Game
 description: |
   The **Conibrr** is a sapient coniferous tree, a dark reflection of a treant, awakened by malevolent entities in the cold forests of northern Faerûn. Unlike typical treants, the Conibrr cares far more for destruction than preservation.
   

@@ -3,7 +3,7 @@ layout: statblock
 title: Hollow Archer
 cr: 1/2
 type: Medium Undead, Neutral Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 
 description: |
   A Hollow Archer is an undead warrior that retains the basic fighting skills it possessed in life, driven by a dull, relentless purpose to strike down the living. It appears as a gaunt figure in weathered armor, its eyesockets empty save for the faint glow of malevolent animation.

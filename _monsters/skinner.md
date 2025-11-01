@@ -3,7 +3,7 @@ layout: statblock
 title: Skinner
 cr: 10
 type: Huge Monstrosity, Neutral Evil
-category: 2 Spooktober 2019
+category: 2014 Fair Game
 image: https://i.imgur.com/u1WQMI6.png
 
 description: |

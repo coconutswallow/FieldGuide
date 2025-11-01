@@ -3,7 +3,7 @@ layout: statblock
 title: Awakened Midwinter Tree
 cr: 6
 type: Huge Plant, Unaligned
-category: 3 XMash 2020
+category: 2014 Fair Game
 image: https://i.pinimg.com/564x/43/55/8b/43558b4f0fac4672559e0a169a7e15b2.jpg
 
 description: |

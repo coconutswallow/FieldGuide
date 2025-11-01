@@ -3,7 +3,7 @@ layout: statblock
 title: Possessor
 cr: 1
 type: Tiny Elemental, Neutral
-category: 2 Spooktober 2019
+category: 2014 Fair Game
 image: https://www.khwiki.com/images/thumb/0/08/Massive_Possessor_KHD.png/180px-Massive_Possessor_KHD.png
 description: |
   A **Possessor** is a type of lesser elemental formed from stray negative emotions and thoughts that have coalesced over a long period of time. It is emotionless and acts purely on instinct to survive by draining the life force of living creatures it comes across. The creature is frail in its naked form, and thus relies on its **Object Possession** ability to beat its prey into submission before moving in to safely feed.

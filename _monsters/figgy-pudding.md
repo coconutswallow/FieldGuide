@@ -3,9 +3,9 @@ layout: statblock
 title: Figgy Pudding
 cr: 7
 type: Medium Ooze, Unaligned
-category: 3 XMash 2020
+category: 2014 Fair Game
 image: https://i.imgur.com/YvLhmXw.png
-image_credit: "Art source unknown"
+
 description: |
   In some homes, Midwinter is a time of feasting with family and friends, enjoying each other's warmth and distracting themselves from the harsh cold and hard times that remain before spring. Only after plates have been cleared and the warm ciders are in hand around the fire do they begin to tell tales of Midwinter celebrations where the guests didn't make it past dessert—where festivities were cut short by the Figgy Pudding.
 

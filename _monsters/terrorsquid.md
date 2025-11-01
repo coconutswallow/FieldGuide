@@ -3,7 +3,7 @@ layout: statblock
 title: Terrorsquid
 cr: 2
 type: Large Aberration, Neutral Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 description: |
   The Terrorsquid is an otherworldly cephalopod, a creature of nightmare that glides through both deep water and the open air. It uses its innate ability to generate a dense, obscuring fog, from which it launches surprise attacks with its long, powerful tentacles, binding and biting its unfortunate victims.
   

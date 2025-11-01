@@ -3,7 +3,9 @@ layout: statblock
 title: Cursed Porcelain Doll
 cr: 1
 type: Small Construct, Chaotic Evil
-category: 1 Hawthorne Homebrew  
+category: 2014 Fair Game
+description: |
+  Creation by Constantine  
 ---
 
 ___

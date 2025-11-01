@@ -3,7 +3,7 @@ layout: statblock
 title: Channeler
 cr: 2
 type: Medium Monstrosity, Neutral Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 image: https://cdnb.artstation.com/p/assets/images/images/000/247/751/large/fenghua-zhong-monstrosity.jpg?1443929572
 image_credit: "Art by Fenghua Zhong"
 Description: |

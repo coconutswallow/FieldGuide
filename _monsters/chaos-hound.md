@@ -3,7 +3,7 @@ layout: statblock
 title: Chaos Hound
 cr: 10
 type: Large Fiend, Chaotic Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 description: |
   ## Chaos Hound
   Putrid fiends that resemble decaying dogs, **chaos hounds** are found throughout the Abyss and other parts of the Lower Planes. On the Material Plane, they are most commonly seen in the service of powerful demons and other evil creatures that use them as trackers and hunters.

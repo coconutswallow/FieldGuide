@@ -3,7 +3,7 @@ layout: statblock
 title: Chultan Gutworm
 cr: 4
 type: Medium Monstrosity, Neutral
-category: 2 Spooktober 2019
+category: 2014 Fair Game
 image: https://cdn.discordapp.com/attachments/518252162401304580/621026734170570762/2606740903_1056d5bfef_z.jpg
 
 description: |

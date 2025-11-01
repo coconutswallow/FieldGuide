@@ -3,7 +3,7 @@ layout: statblock
 title: Cursed Porcelain Dolls, Swarm of
 cr: 4
 type: Medium Swarm of Small Constructs, Chaotic Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 description: |
     Creation by Constantine
 ---

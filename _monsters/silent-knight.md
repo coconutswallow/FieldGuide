@@ -3,7 +3,7 @@ layout: statblock
 title: Silent Knight
 cr: 8
 type: Medium Celestial, Lawful Neutral
-category: 3 XMash 2020
+category: 2014 Fair Game
 image: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16a21711-a508-454a-91f1-faa0b602734c/d9af01i-b2ef83c1-57f4-4c77-9f6a-475ecdbb3a54.jpg/v1/fill/w_1131,h_707,q_70,strp/paladin_by_soft_h_d9af01i-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NTAiLCJwYXRoIjoiXC9mXC8xNmEyMTcxMS1hNTA4LTQ1NGEtOTFmMS1mYWEwYjYwMjczNGNcL2Q5YWYwMWktYjJlZjgzYzEtNTdmNC00Yzc3LTlmNmEtNDc1ZWNkYmIzYTU0LmpwZyIsIndpZHRoIjoiPD0xMjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iuL3JneXtztbvatrlPAIyw4kUy2N4pR_xvBUi1TMqSg
 
 description: |

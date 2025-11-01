@@ -3,7 +3,7 @@ layout: statblock
 title: Bone Golem
 cr: 10
 type: Huge Construct, Unaligned
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 description: |
   Creation by Falky44
 ---

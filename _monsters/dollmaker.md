@@ -3,7 +3,7 @@ layout: statblock
 title: The Dollmaker
 cr: 10
 type: Medium Fiend (Shapechanger), Chaotic Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 
 description: |
 ## Pain and Porcelain

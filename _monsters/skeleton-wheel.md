@@ -3,7 +3,7 @@ layout: statblock
 title: Skeleton Wheel
 cr: 1
 type: Medium Undead, Lawful Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 
 description: |
   A grotesque fusion of undeath and mechanism, the Skeleton Wheel is the reanimated remains of a victim violently contorted and bound within a large wooden or metal wheel. Driven by a relentless, crushing evil, it patrols ancient roads and ruins, seeking to flatten any creature in its path.

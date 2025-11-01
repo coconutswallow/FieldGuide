@@ -3,7 +3,7 @@ layout: statblock
 title: Starved Hound
 cr: 1
 type: Medium Undead, Neutral Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 
 description: |
   A Starved Hound is an undead dog, gaunt and rotting, animated by an eternal, gnawing hunger and necromantic malice. It is a terrifying, silent predator of the night, often hunting in packs to overwhelm its prey.

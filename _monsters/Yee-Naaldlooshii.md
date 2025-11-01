@@ -3,7 +3,7 @@ layout: statblock
 title: Yee Naaldlooshii
 cr: 10
 type: Medium Monstrosity (Shapechanger), Chaotic Evil
-category: 2 Spooktober 2019
+category: 2014 Fair Game
 image: https://vignette.wikia.nocookie.net/stephenking/images/2/29/The_Wendigo.jpg/revision/latest?cb=20150316180502
 
 description: |

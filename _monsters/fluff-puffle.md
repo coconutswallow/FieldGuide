@@ -3,7 +3,7 @@ layout: statblock
 title: Fluff-Puffle
 cr: 1/8
 type: Tiny Beast, Lawful Good
-category: 4 Dream Mash 2021
+category: 2014 Fair Game
 image: https://i.imgur.com/8brmN3v.jpg
 image_credit: "Art from Hawthorne Dream Mash 2021"
 description: |

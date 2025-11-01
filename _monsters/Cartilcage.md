@@ -3,7 +3,7 @@ layout: statblock
 title: Cartilcage
 cr: 7
 type: Medium Undead, Lawful Evil
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 creator: Falky44
 ---
 

@@ -4,7 +4,7 @@ title: Greater Mimic
 cr: 8
 image: https://i.imgur.com/QnpofLA.png
 type: Medium Monstrosity (Shapechanger), Neutral
-category: 1 Hawthorne Homebrew
+category: 2014 Fair Game
 
 description: |
   A Greater Mimic is an exceptionally large and cunning variant of the classic monster, capable of taking on the form of massive objects—or even combinations of objects—to lure in more formidable prey. It is distinguished by a large, gaping mouth that acts as an **Extradimensional Storage** space, a deadly trap into which it deposits its unfortunate victims and treasure alike.
