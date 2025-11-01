@@ -2,6 +2,7 @@
 layout: statblock
 title: Orc Raid General
 cr: 10
+image: https://i.imgur.com/NI0tlLi.jpg
 type: Medium Humanoid (Orc), Chaotic Evil
 category: 1 Hawthorne Homebrew
 description: |

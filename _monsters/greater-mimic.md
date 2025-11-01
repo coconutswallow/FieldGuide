@@ -2,6 +2,7 @@
 layout: statblock
 title: Greater Mimic
 cr: 8
+image: https://i.imgur.com/QnpofLA.png
 type: Medium Monstrosity (Shapechanger), Neutral
 category: 1 Hawthorne Homebrew
 

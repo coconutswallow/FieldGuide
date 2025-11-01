@@ -6,14 +6,6 @@ type: Medium Monstrosity, Neutral Evil
 category: 1 Hawthorne Homebrew
 image: https://cdnb.artstation.com/p/assets/images/images/000/247/751/large/fenghua-zhong-monstrosity.jpg?1443929572
 image_credit: "Art by Fenghua Zhong"
-description: |
-  A Channeler is a grim creature that blends martial prowess with innate arcane power. Often appearing as a sinister warrior, it uses its magical abilities to support allies and its brute strength to strike down foes.
-  
-  #### Habitat
-  Channelers are often found in ruins or forgotten temples where they guard dark secrets or serve more powerful evil entities. They thrive in environments where they can ambush or lead small, dedicated groups of cultists or monsters.
-  
-  #### Combat Tactics
-  The Channeler begins combat with its **Battle Dance** to buff its allies (and itself), then uses its **Trident** for heavy melee damage, augmented by its **Brute** trait. It uses its limited **Spellcasting** for utility, and its **Misty Escape** reaction allows it to strategically retreat or reposition when injured.
 ---
 
 ___

@@ -9,12 +9,6 @@ description: |
   The **Champion of Torm** represents the military might and unwavering conviction of the various orders that worship the deity of duty and loyalty. These champions are sent throughout the world as beacons of hope and courage.
   
   They value honesty, loyalty, and truth above all else, offering aid to all those in need. Individual champions are often on some form of penance, seeking to do good in the world to atone for a past event they blame themselves for. Their divine duty includes finding and destroying any cults of Cyric and Bane, and locating and recording any areas of dead or wild magic.
-  
-  #### Habitat
-  Champions are highly mobile, found wherever the forces of evil are strongest. They often serve in the forefront of large-scale conflicts, guard large temples dedicated to Torm, or travel isolated roads to protect the weak.
-  
-  #### Combat Tactics
-  The Champion is a front-line defender who shines in supporting and protecting allies. They typically cast *Shield of Faith* and/or *Spirit Guardians* before closing to melee range. They leverage a high AC (18) and their **Parry** reaction to be extremely durable. Their **Multiattack** uses **Duty's Bond**, a powerful greatsword strike infused with **Torm's Blessing** (radiant damage). They use **Healing Touch** to keep key allies in the fight, and **Steadfast** to ensure they never flee in the face of danger.
 ---
 
 ___
