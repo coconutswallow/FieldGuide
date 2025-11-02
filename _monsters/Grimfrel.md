@@ -6,8 +6,8 @@ type: Fey
 size: Large
 alignment: Neutral Evil
 category: 2014 Fair Game
-image: https://64.media.tumblr.com/2c84e388a2d332a7de370f7fe06e5b00/6ead6ada3aa8f8d2-a5/s2048x3072/92fc829976206fcd6cf39656160827550fb41312.png
-image_credit: "Art source unknown"
+image: https://c.wallhere.com/photos/ed/7a/1920x1280_px_babes_Band_brunettes_children_creepy_Dark_females-1730669.jpg!d
+
 description: |
   The Queen of Air and Darkness employs fey spirits of wind and snow to retrieve creatures or items from the Material Plane. These spirits are known as Wind Wraiths, Yule Men, or in the Sylvan tongue, Grimfrel.
 
@@ -21,7 +21,7 @@ description: |
   In addition to seeking out its charge, the Grimfrel delights in flaying and eating “naughty” children — presumably to procure more material for its vellum lists.
 
   #### Combat Tactics
-  Grimfrels are employed by the Queen of Air and Darkness to subdue and retrieve those who have earned the ire of the Unseelie Fey, whether by insult or broken bargain. The Grimfrel stalks its charge invisibly, striking when least expected. During an ambush, it opens with its claws and *Frostbite*, using *Frigid Visage* to weaken targets and prevent escape. When its prey begins to falter, it freezes them solid with *Winter’s Grasp* for transport back to the Feywild. After capturing its charge, it may reward the “nice” nearby while flaying the “naughty” before vanishing with the dawn.
+  Grimfrel are employed by the Queen of Air and Darkness to subdue and retrieve those that have earned the ire of the Unseelie Fey, whether it by offering insult, or breaking a fey bargain. The Grimfrel tracks its charge invisibly, attacking when the target least expects it. During an ambush, it first strikes with its claws and Frostbite to capitalize upon catching its target sleeping or otherwise unaware. After delivering vicious slashes, it uses its Frigid Visage to sap the creature's stamina, to prevent escape. When the prey begins to falter and stumble, it then freezes it solid with Winter's Grasp, in preparation for transport back to the lands of Winter in the Feywild. Once its charge is captured, it may choose to seek out any nearby humanoids, rewarding the nice with gifts, while flaying the naughty in their beds, sure to return to the lands of its Queen before the morning light.
 ---
 
 ___
