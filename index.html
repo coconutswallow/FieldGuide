@@ -15,9 +15,9 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 <!-- Filter Controls -->
 <div class="filter-container">
   <div class="filter-group">
-    <label for="creator-filter">Creator:</label>
-    <select id="creator-filter" class="filter-select">
-      <option value="">All Creators</option>
+    <label for="cr-filter">CR:</label>
+    <select id="cr-filter" class="filter-select">
+      <option value="">All CRs</option>
     </select>
   </div>
   
@@ -29,9 +29,9 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
   </div>
   
   <div class="filter-group">
-    <label for="cr-filter">CR:</label>
-    <select id="cr-filter" class="filter-select">
-      <option value="">All CRs</option>
+    <label for="size-filter">Size:</label>
+    <select id="size-filter" class="filter-select">
+      <option value="">All Sizes</option>
     </select>
   </div>
   
@@ -50,9 +50,9 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
       {% assign sorted = category.items | sort: 'title' %}
       {% for monster in sorted %}
         <div class="monster-card" 
-             data-creator="{{ monster.creator | default: 'Unknown' }}" 
+             data-cr="{{ monster.cr }}" 
              data-type="{{ monster.type }}" 
-             data-cr="{{ monster.cr }}">
+             data-size="{{ monster.size }}">
           <h3><a href="{{ monster.url | relative_url }}">{{ monster.title }}</a></h3>
           <p class="monster-cr">CR {{ monster.cr }}</p>
           <p class="monster-type">{{ monster.type }}</p>
@@ -165,43 +165,30 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const creatorFilter = document.getElementById('creator-filter');
-  const typeFilter = document.getElementById('type-filter');
   const crFilter = document.getElementById('cr-filter');
+  const typeFilter = document.getElementById('type-filter');
+  const sizeFilter = document.getElementById('size-filter');
   const resetButton = document.getElementById('reset-filters');
   const monsterCards = document.querySelectorAll('.monster-card');
   const categorySections = document.querySelectorAll('.category-section');
   const monsterCount = document.getElementById('monster-count');
   
   // Collect unique values for filters
-  const creators = new Set();
-  const types = new Set();
   const crs = new Set();
+  const types = new Set();
+  const sizes = new Set();
   
   monsterCards.forEach(card => {
-    const creator = card.dataset.creator;
-    const type = card.dataset.type;
     const cr = card.dataset.cr;
+    const type = card.dataset.type;
+    const size = card.dataset.size;
     
-    if (creator) creators.add(creator);
-    if (type) types.add(type);
     if (cr) crs.add(cr);
+    if (type) types.add(type);
+    if (size) sizes.add(size);
   });
   
   // Populate filter dropdowns
-  Array.from(creators).sort().forEach(creator => {
-    const option = document.createElement('option');
-    option.value = creator;
-    option.textContent = creator;
-    creatorFilter.appendChild(option);
-  });
-  
-  Array.from(types).sort().forEach(type => {
-    const option = document.createElement('option');
-    option.value = type;
-    option.textContent = type;
-    typeFilter.appendChild(option);
-  });
   
   // Sort CRs numerically
   Array.from(crs).sort((a, b) => {
@@ -215,24 +202,42 @@ document.addEventListener('DOMContentLoaded', function() {
     crFilter.appendChild(option);
   });
   
+  Array.from(types).sort().forEach(type => {
+    const option = document.createElement('option');
+    option.value = type;
+    option.textContent = type;
+    typeFilter.appendChild(option);
+  });
+  
+  // Sort sizes by D&D standard order
+  const sizeOrder = ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan'];
+  Array.from(sizes).sort((a, b) => {
+    return sizeOrder.indexOf(a) - sizeOrder.indexOf(b);
+  }).forEach(size => {
+    const option = document.createElement('option');
+    option.value = size;
+    option.textContent = size;
+    sizeFilter.appendChild(option);
+  });
+  
   // Filter function
   function filterMonsters() {
-    const selectedCreator = creatorFilter.value;
-    const selectedType = typeFilter.value;
     const selectedCR = crFilter.value;
+    const selectedType = typeFilter.value;
+    const selectedSize = sizeFilter.value;
     
     let visibleCount = 0;
     
     monsterCards.forEach(card => {
-      const cardCreator = card.dataset.creator;
-      const cardType = card.dataset.type;
       const cardCR = card.dataset.cr;
+      const cardType = card.dataset.type;
+      const cardSize = card.dataset.size;
       
-      const creatorMatch = !selectedCreator || cardCreator === selectedCreator;
-      const typeMatch = !selectedType || cardType === selectedType;
       const crMatch = !selectedCR || cardCR === selectedCR;
+      const typeMatch = !selectedType || cardType === selectedType;
+      const sizeMatch = !selectedSize || cardSize === selectedSize;
       
-      if (creatorMatch && typeMatch && crMatch) {
+      if (crMatch && typeMatch && sizeMatch) {
         card.classList.remove('hidden');
         visibleCount++;
       } else {
@@ -257,16 +262,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Reset function
   function resetFilters() {
-    creatorFilter.value = '';
-    typeFilter.value = '';
     crFilter.value = '';
+    typeFilter.value = '';
+    sizeFilter.value = '';
     filterMonsters();
   }
   
   // Add event listeners
-  creatorFilter.addEventListener('change', filterMonsters);
-  typeFilter.addEventListener('change', filterMonsters);
   crFilter.addEventListener('change', filterMonsters);
+  typeFilter.addEventListener('change', filterMonsters);
+  sizeFilter.addEventListener('change', filterMonsters);
   resetButton.addEventListener('click', resetFilters);
   
   // Initial count
