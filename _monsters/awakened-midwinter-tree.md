@@ -6,20 +6,26 @@ type: Plant
 size: Huge
 alignment: Unaligned
 category: 2014 Fair Game
+creator: Statistics
 image: https://i.pinimg.com/564x/43/55/8b/43558b4f0fac4672559e0a169a7e15b2.jpg
 
 description: |
-  The **Awakened Midwinter Tree** is a construct created by the green hag Grincheuse. Every Midwinter, Grincheuse decorates spruce trees with beautiful, tempting ornaments and a bright **Blinding Star** before awakening them and sending them out to capture villagers, notably children. Their beautiful appearance is a lure, as their true purpose is to ensnare and deliver victims to their cruel creator.
+  Midwinter is here and its that time of year when worshippers of various gods take the opportunity to pray and have rituals in their honor. Some have joyful and peaceful celebrations, while other creatures are up to something more... sinister.
   
-  The tree's magic allows it to use its strands of garland to restrain prey and its star to travel more easily in darker environments. Grincheuse is said to use the trees out of pure cruelty to ruin the villagers' happiness during the cold season.
+  Every Midwinter, a green hag named Grincheuse decorates spruce trees with beautiful ornaments before awakening them and sending them out to villages throughout the land to do her bidding.
   
+  Their beautiful garland and glass baubles are meant to attract those looking to collect fancy trinkets and serve to make the awakened midwinter trees more approachable. ''Looks can be deceiving'' has never been more true when speaking of these trees. Thanks to Grincheuse's magic, the awakened midwinter tree can use its strands of garland to restrain its prey and ensure its success in capturing it, then bringing it to its creator.
+  
+  The bright light cast upon the star placed atop the tree allows the awakened midwinter trees to travel more easily in darker environments. Akin to their fancy decorations, the star serves as a lure to attract the curious passersby who would be tempted to inquire about the shining light in the distance.
+  
+  Grincheuse is said to use the trees to capture villagers, notably children, during the time of Midwinter, hence the name ''awakened midwinter tree''. Rumors say she does so out of pure cruelty and desire to ruin the villagers happiness. Winter being harsh and cold, it is displeasing to her some could find warmth and joy in their hearts during that time. Those are only speculations, for no one was ever known to return from her clutches.
+
   #### Combat Tactics
-  The main goal of the tree is to capture and return its victims to its creator. It will:
-  
-  1.  Target the easiest Medium or smaller prey to grapple and drag away.
-  2.  Use its **Multiattack** to hit the target twice with **Garland Swipe** and then use **Engulf** if both attacks hit.
-  3.  Once a creature is captured, it will attempt to flee back to its creator's location.
-  4.  It will use its **Winter Balls** attack to spread glass in its wake, creating difficult terrain to make it more difficult for opponents to chase after it.
+  The main goal of the tree is to capture people and return them to their creator. It will:
+  • Target the easiest prey to grapple and drag away and hit them with a garland attack twice.
+  • If both attacks hit the tree use their engulf ability.
+  • Once it has something captured it will attempt to flee home while attacking anything that is hostile towards it.
+  • It will use its Winter Balls attack to try to aid its cause by spreading glass everywhere between it and its opponents making it more difficult to chase after it.
 ---
 
 ___

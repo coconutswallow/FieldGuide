@@ -9,12 +9,16 @@ category: 2014 Fair Game
 image: https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16a21711-a508-454a-91f1-faa0b602734c/d9af01i-b2ef83c1-57f4-4c77-9f6a-475ecdbb3a54.jpg/v1/fill/w_1131,h_707,q_70,strp/paladin_by_soft_h_d9af01i-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NTAiLCJwYXRoIjoiXC9mXC8xNmEyMTcxMS1hNTA4LTQ1NGEtOTFmMS1mYWEwYjYwMjczNGNcL2Q5YWYwMWktYjJlZjgzYzEtNTdmNC00Yzc3LTlmNmEtNDc1ZWNkYmIzYTU0LmpwZyIsIndpZHRoIjoiPD0xMjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.iuL3JneXtztbvatrlPAIyw4kUy2N4pR_xvBUi1TMqSg
 
 description: |
-  A **Silent Knight** is a holy warrior, originally created by the dwarven god **Dumathoin** and charged with the collection of secrets. Once a Silent Knight learns a secret, no amount of magic or persuasion can force it to speak. Its core ability is the **Aura of Silence**, which disrupts nearby spellcasters and ensures that when a victim is bested, no one will hear them scream.
+  A Silent Knight is a holy warrior, one who has no patience for vocalisation. Its Aura of Silence disrupts nearby spellcasters, and its martial prowess with their longsword is a challenge even to skilled warriors. And if you are bested by this knight, nobody will hear you scream.
   
-  Though some may forget their original purpose, they can be swayed by secrets or gemstones to assist creatures, as long as it doesn't threaten them or their creator. They hold a unique respect for dwarves, to whom they are a **Friend to Dwarves** and will never willingly attack.
+  **Creations of Dumathoin**. Silent Knights are originally creations of Dumathoin, charged with the collection of secrets. Once a Silent Knight learned a secret, no amount of magic or persuasion could force it to speak it. It could only be heard from them by Dumathoin himself. Though they faithfully serve Dumathoin, if they remain on the material plane too long they may forget their true purpose.
+  
+  **Friend to Dwarves.** A Silent Knight will never willingly attack a dwarf, if forced or magically compelled to attack a dwarf the Silent Knight suffers disadvantage on the attack roll.
+  
+  **Willing to Work** Though the Silent Knights have lost their original purpose, some may find a new one from those who are willing to part with some gemstones or a few secrets. Though they no longer know why they seek them, a Silent Knight will assist any creature with enough gems or secrets to pay their price as long as it doesn't threaten them or their creator.
   
   #### Combat Tactics
-  The Silent Knight excels at disrupting spellcasters by engulfing them in its **Aura of Silence** or by hitting them with its **Longsword** to prevent them from speaking. With a high **Armor Class**, **Martial Champion** trait (crits on 19 or 20), and **Multiattack** (3 attacks), it is a serious threat to front-line warriors as well. It may use its **Action Surge** to maximize attacks in a single turn. When dealing with a ranged or fleeing opponent, it can use its **Dagger** attacks.
+  The Silent Knight, while not particularly threatening on its own, makes both a good minion with its willingness to work, and a fair boss threat in the mid lower tiers. It excels at disrupting spellcasters both by engulfing them within its aura of silence, or simply by hitting them to prevent them from speaking. It is just as good for dealing with front line PCs with its martial champion trait and high armor class. For example, some creatures Krunk would use as a boss to the Silent Knight would be an Archmage, one of the Volo's warlock stat blocks, or as it is a friend to dwarves a party of Duergar.
 ---
 
 ___
