@@ -43,7 +43,7 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 
 <div id="monster-count" class="monster-count"></div>
 
-{% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' | sort: 'name' %}
+{% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' %}
 
 {% for category in monsters_by_category %}
   <div class="category-section" data-category="{{ category.name }}">
