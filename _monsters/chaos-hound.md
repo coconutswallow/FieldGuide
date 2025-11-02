@@ -2,7 +2,9 @@
 layout: statblock
 title: Chaos Hound
 cr: 10
-type: Large Fiend, Chaotic Evil
+type: Fiend
+size: Large
+alignment: Chaotic Evil
 category: 2014 Fair Game
 description: |
   ## Chaos Hound

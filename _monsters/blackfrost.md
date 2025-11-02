@@ -2,7 +2,9 @@
 layout: statblock
 title: Blackfrost
 cr: 12
-type: Medium Undead, Chaotic Evil
+type: Undead
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 image: https://staticdelivery.nexusmods.com/mods/952/images/thumbnails/3612/3612-1554443504-460856515.png
 image_credit: "Art source unknown"

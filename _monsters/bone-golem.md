@@ -2,7 +2,9 @@
 layout: statblock
 title: Bone Golem
 cr: 10
-type: Huge Construct, Unaligned
+type: Construct
+size: Huge
+alignment: Unaligned
 category: 2014 Fair Game
 description: |
   Creation by Falky44

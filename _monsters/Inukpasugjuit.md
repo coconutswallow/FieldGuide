@@ -2,7 +2,9 @@
 layout: statblock
 title: Inukpasugjuit
 cr: 8
-type: Huge Giant, Neutral Evil
+type: Giant
+size: Huge
+alignment: Neutral Evil
 category: 2014 Fair Game
 image: https://i.pinimg.com/originals/ca/bd/9b/cabd9b4b51ffdd9007c12544c8a3c70b.jpg
 image_credit: "Art source unknown"

@@ -2,7 +2,9 @@
 layout: statblock
 title: Possessor
 cr: 1
-type: Tiny Elemental, Neutral
+type: Elemental
+size: Tiny
+alignment: Neutral
 category: 2014 Fair Game
 image: https://www.khwiki.com/images/thumb/0/08/Massive_Possessor_KHD.png/180px-Massive_Possessor_KHD.png
 description: |

@@ -2,7 +2,9 @@
 layout: statblock
 title: Figgy Pudding
 cr: 7
-type: Medium Ooze, Unaligned
+type: Ooze
+size: Medium
+alignment: Unaligned
 category: 2014 Fair Game
 image: https://i.imgur.com/YvLhmXw.png
 

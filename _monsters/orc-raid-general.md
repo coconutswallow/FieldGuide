@@ -3,7 +3,9 @@ layout: statblock
 title: Orc Raid General
 cr: 10
 image: https://i.imgur.com/NI0tlLi.jpg
-type: Medium Humanoid (Orc), Chaotic Evil
+type: Humanoid (Orc)
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 description: |
   The **Orc Raid General** is the terrifying, brutal commander of an orc horde. Clad in heavy splint mail and wielding a greataxe infused with the raw, destructive power of **Gruumsh**, this orc is a terrifying force of nature. It is a cunning leader, capable of both intimidating foes into paralysis and inspiring its troops to overwhelming fury. It seeks not just victory, but total, merciless destruction.

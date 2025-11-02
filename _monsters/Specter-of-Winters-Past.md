@@ -2,7 +2,9 @@
 layout: statblock
 title: Specter of Winters Past
 cr: 10
-type: Medium Undead, Chaotic Neutral
+type: Undead
+size: Medium
+alignment: Chaotic Neutral
 category: 2014 Fair Game
 image: https://media.discordapp.net/attachments/500730367351848971/781892560087941140/eb78fa50ed8895c5eb98aa23cd2d8190.png
 

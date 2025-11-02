@@ -2,7 +2,9 @@
 layout: statblock
 title: Dark Stalker
 cr: 9
-type: Huge Monstrosity, Neutral Evil
+type: Monstrosity
+size: Huge
+alignment: Neutral Evil
 category: 2014 Fair Game
 image: https://cdn.discordapp.com/attachments/477473509405097984/534259330741174283/abomination.png
 description: |

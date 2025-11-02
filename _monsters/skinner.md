@@ -2,7 +2,9 @@
 layout: statblock
 title: Skinner
 cr: 10
-type: Huge Monstrosity, Neutral Evil
+type: Monstrosity
+size: Huge
+alignment: Neutral Evil
 category: 2014 Fair Game
 image: https://i.imgur.com/u1WQMI6.png
 

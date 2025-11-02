@@ -2,7 +2,9 @@
 layout: statblock
 title: Infected Toad
 cr: 8
-type: Huge Beast, Unaligned
+type: Beast
+size: Huge
+alignment: Unaligned
 category: 2014 Fair Game
 
 description: |

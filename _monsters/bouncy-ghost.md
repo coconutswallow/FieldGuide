@@ -2,7 +2,9 @@
 layout: statblock
 title: Bouncy Ghost
 cr: 10
-type: Medium Undead, Any Alignment
+type: Undead
+size: Medium
+alignment: Any Alignment
 category: 2014 Fair Game
 
 

@@ -2,7 +2,9 @@
 layout: statblock
 title: Deadeye
 cr: 6
-type: Medium Undead, Lawful Evil
+type: Undead
+size: Medium
+alignment: Lawful Evil
 category: 2014 Fair Game
 
 description: |

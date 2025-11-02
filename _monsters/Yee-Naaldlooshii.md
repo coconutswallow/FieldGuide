@@ -2,7 +2,9 @@
 layout: statblock
 title: Yee Naaldlooshii
 cr: 10
-type: Medium Monstrosity (Shapechanger), Chaotic Evil
+type: Monstrosity (Shapechanger)
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 image: https://vignette.wikia.nocookie.net/stephenking/images/2/29/The_Wendigo.jpg/revision/latest?cb=20150316180502
 

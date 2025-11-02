@@ -2,7 +2,9 @@
 layout: statblock
 title: Fury of the Night
 cr: 10
-type: Large Monstrosity, Chaotic Evil
+type: Monstrosity
+size: Large
+alignment: Chaotic Evil
 category: 2014 Fair Game
 
 description: |

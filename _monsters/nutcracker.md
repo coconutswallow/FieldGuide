@@ -2,7 +2,9 @@
 layout: statblock
 title: The Nutcracker
 cr: 2
-type: Tiny Construct, Chaotic Good (50%) or Chaotic Evil (50%)
+type: Construct
+size: Tiny
+alignment: Chaotic Good (50%) or Chaotic Evil (50%)
 category: 2014 Fair Game
 image: https://media.discordapp.net/attachments/429646567511687178/780200053854961664/image0.png
 

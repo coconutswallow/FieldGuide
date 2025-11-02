@@ -2,7 +2,9 @@
 layout: statblock
 title: Drowned Soul
 cr: 1/4
-type: Medium Undead, Lawful Evil
+type: Undead
+size: Medium
+alignment: Lawful Evil
 category: 2014 Fair Game
 image: https://orig00.deviantart.net/0ee6/f/2014/356/3/9/infected_zombie_sth_by_noistromo-d8ar6z8.jpg
 image_credit: "Art by Noistromo"

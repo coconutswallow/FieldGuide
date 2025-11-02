@@ -2,7 +2,9 @@
 layout: statblock
 title: The Bitter Maiden
 cr: 8
-type: Medium Undead, Chaotic Evil
+type: Undead
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 image: https://64.media.tumblr.com/132104ecc543779836e4f2b92f7457dd/tumblr_p7cmyqQf0c1rgpwzko1_1280.jpg
 

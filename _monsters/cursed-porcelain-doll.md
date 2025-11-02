@@ -2,7 +2,9 @@
 layout: statblock
 title: Cursed Porcelain Doll
 cr: 1
-type: Small Construct, Chaotic Evil
+type: Construct
+size: Small
+alignment: Chaotic Evil
 category: 2014 Fair Game
 description: |
   Creation by Constantine  

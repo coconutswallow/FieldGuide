@@ -2,7 +2,9 @@
 layout: statblock
 title: The Cookie Spooder
 cr: 1/4
-type: Tiny Monstrosity, Neutral Good
+type: Monstrosity
+size: Tiny
+alignment: Neutral Good
 category: 2014 Fair Game
 image: https://cdn.discordapp.com/attachments/412330916640325652/622462533868978195/9df559bb4b8e0aec1c50754bb7a7cce5_original.png
 

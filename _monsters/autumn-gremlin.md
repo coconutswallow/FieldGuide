@@ -2,10 +2,10 @@
 layout: statblock
 title: Autumn Gremlin
 cr: 4
-type: Medium Fey, Chaotic Neutral
+type: Fey
+size: Medium
+alignment: Chaotic Neutral
 category: 2014 Fair Game
-image: /assets/images/autumn-gremlin.jpg
-image_credit: "Art by [Artist Name - placeholder]"
 description: |
   Gremlins of the **Autumn Court** are called upon when their masters need a creepy and crawly creature to ambush a nuisance. They are larger, stronger, and more intimidating than their smaller boggle cousins. It is rumored that boggles that achieve great service to the Court are transformed into these beings. The transformation renders them **blind**, and they learn to lurk in dark caves and scurry their way through the earth, relying on their other powerful senses.
   

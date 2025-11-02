@@ -2,7 +2,9 @@
 layout: statblock
 title: Champion of Torm
 cr: 10
-type: Medium Humanoid, Lawful Good
+type: Humanoid
+size: Medium
+alignment: Lawful Good
 category: 2014 Fair Game
 
 description: |

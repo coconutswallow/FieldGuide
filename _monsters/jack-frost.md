@@ -2,7 +2,9 @@
 layout: statblock
 title: Jack Frost
 cr: 11
-type: Small Fey (Shapechanger), Neutral Evil
+type: Fey (Shapechanger)
+size: Small
+alignment: Neutral Evil
 category: 2014 Fair Game
 image: https://i.imgur.com/RVaHjr8.png
 image_credit: "Art source unknown"

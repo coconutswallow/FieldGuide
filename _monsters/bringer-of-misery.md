@@ -2,7 +2,9 @@
 layout: statblock
 title: Bringer of Misery
 cr: 10
-type: Medium Undead, Chaotic Evil
+type: Undead
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 image: https://i.redd.it/jn72nbc54dnz.jpg
 description: |

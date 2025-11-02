@@ -2,7 +2,9 @@
 layout: statblock
 title: Hollow
 cr: 1/4
-type: Medium Undead, Neutral Evil
+type: Undead
+size: Medium
+alignment: Neutral Evil
 category: 2014 Fair Game
 
 description: |

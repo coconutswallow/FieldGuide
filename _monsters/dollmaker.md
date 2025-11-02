@@ -2,7 +2,9 @@
 layout: statblock
 title: The Dollmaker
 cr: 10
-type: Medium Fiend (Shapechanger), Chaotic Evil
+type: Fiend (Shapechanger)
+size: Medium
+alignment: Chaotic Evil
 category: 2014 Fair Game
 
 description: |

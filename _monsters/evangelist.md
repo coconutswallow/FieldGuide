@@ -2,7 +2,9 @@
 layout: statblock
 title: Evangelist
 cr: 3
-type: Medium Undead, Lawful Evil
+type: Undead
+size: Medium
+alignment: Lawful Evil
 category: 2014 Fair Game
 description: |
   An Evangelist is a cruel, cunning undead that clings to the remnants of its worldly zealotry. Unlike mindless zombies, this undead entity wields both martial training and dark arcane power, often serving as a devoted and manipulative preacher of its dark god or creator.

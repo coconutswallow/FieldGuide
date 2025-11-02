@@ -2,7 +2,9 @@
 layout: statblock
 title: Fluff-Puffle
 cr: 1/8
-type: Tiny Beast, Lawful Good
+type: Beast
+size: Tiny
+alignment: Lawful Good
 category: 2014 Fair Game
 image: https://i.imgur.com/8brmN3v.jpg
 image_credit: "Art from Hawthorne Dream Mash 2021"

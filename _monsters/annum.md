@@ -2,7 +2,9 @@
 layout: statblock
 title: Annum
 cr: 2
-type: Small Aberration, Neutral
+type: Aberration
+size: Small
+alignment: Neutral
 category: 2014 Fair Game
 
 description: |
