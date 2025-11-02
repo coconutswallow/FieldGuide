@@ -50,8 +50,7 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
     <h2 class="category-title">{{ category.name }}</h2>
 
     <div class="monster-list">
-      {% assign sorted = category.items | sort: 'cr' %}
-      {% for monster in sorted %}
+      {% for monster in category.items %}
         <div class="monster-card" 
              data-cr="{{ monster.cr }}" 
              data-type="{{ monster.type }}" 
