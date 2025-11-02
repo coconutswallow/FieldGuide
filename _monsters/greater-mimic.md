@@ -3,7 +3,7 @@ layout: statblock
 title: Greater Mimic
 cr: 8
 image: https://i.imgur.com/QnpofLA.png
-type: Monstrosity (Shapechanger)
+type: Monstrosity
 size: Medium
 alignment: Neutral
 category: 2014 Fair Game

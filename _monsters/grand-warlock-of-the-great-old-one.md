@@ -2,7 +2,7 @@
 layout: statblock
 title: Grand Warlock of the Great Old One
 cr: 8
-type: Humanoid (any race)
+type: Humanoid
 size: Medium
 alignment: Any Alignment
 category: 2014 Fair Game

@@ -3,7 +3,7 @@ layout: statblock
 title: Orc Raid General
 cr: 10
 image: https://i.imgur.com/NI0tlLi.jpg
-type: Humanoid (Orc)
+type: Humanoid
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game

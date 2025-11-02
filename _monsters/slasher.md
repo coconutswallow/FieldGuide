@@ -2,7 +2,7 @@
 layout: statblock
 title: Slasher
 cr: 5
-type: Humanoid (Any Race)
+type: Humanoid
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game

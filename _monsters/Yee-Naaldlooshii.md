@@ -2,7 +2,7 @@
 layout: statblock
 title: Yee Naaldlooshii
 cr: 10
-type: Monstrosity (Shapechanger)
+type: Monstrosity
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game
