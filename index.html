@@ -199,6 +199,19 @@ document.addEventListener('DOMContentLoaded', function() {
   const categorySections = document.querySelectorAll('.category-section');
   const monsterCount = document.getElementById('monster-count');
   
+  // Function to parse CR values (handles fractions like "1/4")
+  function parseCR(crString) {
+    if (!crString) return 0;
+    
+    // Check if it's a fraction
+    if (crString.includes('/')) {
+      const parts = crString.split('/');
+      return parseFloat(parts[0]) / parseFloat(parts[1]);
+    }
+    
+    return parseFloat(crString);
+  }
+  
   // Collect unique values for filters
   const types = new Set();
   const sizes = new Set();
@@ -241,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     monsterCards.forEach(card => {
       const cardType = card.dataset.type;
-      const cardCR = parseFloat(card.dataset.cr);
+      const cardCR = parseCR(card.dataset.cr);
       const cardSize = card.dataset.size;
       
       const typeMatch = !selectedType || cardType === selectedType;
