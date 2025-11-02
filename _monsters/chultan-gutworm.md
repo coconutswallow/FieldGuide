@@ -23,7 +23,7 @@ description: |
   The Gutworm's strategy is to quickly incapacitate a living host. It uses **Paralytic Stinger** to inject venom and restrain a creature. Once a target is **paralyzed** (or otherwise helpless), the Gutworm focuses its **Infest** attack, delivering massive necrotic damage. If this damage kills a Medium or larger humanoid or beast, the Gutworm immediately climbs inside the corpse to animate it, effectively gaining a new, stronger body.
 
   ### Mythology
-There are rumors of even larger hosts being infested by dozens of gutworms, perhaps explaining the presence of great zombified beasts in the Chultan jungles. Similar tales mention survivors of the lost tribe of Eshowe, utilizing the gutworms in necromantic rituals with the aim of granting everlasting life, or as some would tell it, a state of intelligent undeath where host and parasite work as one in service of the Nightsinger.
+  There are rumors of even larger hosts being infested by dozens of gutworms, perhaps explaining the presence of great zombified beasts in the Chultan jungles. Similar tales mention survivors of the lost tribe of Eshowe, utilizing the gutworms in necromantic rituals with the aim of granting everlasting life, or as some would tell it, a state of intelligent undeath where host and parasite work as one in service of the Nightsinger.
 ---
 
 ___
