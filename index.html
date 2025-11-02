@@ -15,17 +15,20 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 <!-- Filter Controls -->
 <div class="filter-container">
   <div class="filter-group">
-    <label for="cr-filter">CR:</label>
-    <select id="cr-filter" class="filter-select">
-      <option value="">All CRs</option>
-    </select>
-  </div>
-  
-  <div class="filter-group">
     <label for="type-filter">Type:</label>
     <select id="type-filter" class="filter-select">
       <option value="">All Types</option>
     </select>
+  </div>
+  
+  <div class="filter-group">
+    <label for="cr-from">CR From:</label>
+    <input type="number" id="cr-from" class="filter-input" placeholder="Min" min="0" step="0.125">
+  </div>
+  
+  <div class="filter-group">
+    <label for="cr-to">CR To:</label>
+    <input type="number" id="cr-to" class="filter-input" placeholder="Max" min="0" step="0.125">
   </div>
   
   <div class="filter-group">
@@ -109,6 +112,28 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
   box-shadow: 0 0 0 2px rgba(88, 24, 13, 0.2);
 }
 
+.filter-input {
+  padding: 0.5em;
+  border: 2px solid #58180D;
+  border-radius: 4px;
+  background: white;
+  font-family: var(--font-body);
+  font-size: 1em;
+  color: #58180D;
+  width: 100%;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: #822000;
+  box-shadow: 0 0 0 2px rgba(88, 24, 13, 0.2);
+}
+
+.filter-input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
 .reset-button {
   padding: 0.5em 1.5em;
   background: #58180D;
@@ -165,8 +190,9 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const crFilter = document.getElementById('cr-filter');
   const typeFilter = document.getElementById('type-filter');
+  const crFromInput = document.getElementById('cr-from');
+  const crToInput = document.getElementById('cr-to');
   const sizeFilter = document.getElementById('size-filter');
   const resetButton = document.getElementById('reset-filters');
   const monsterCards = document.querySelectorAll('.monster-card');
@@ -174,34 +200,18 @@ document.addEventListener('DOMContentLoaded', function() {
   const monsterCount = document.getElementById('monster-count');
   
   // Collect unique values for filters
-  const crs = new Set();
   const types = new Set();
   const sizes = new Set();
   
   monsterCards.forEach(card => {
-    const cr = card.dataset.cr;
     const type = card.dataset.type;
     const size = card.dataset.size;
     
-    if (cr) crs.add(cr);
     if (type) types.add(type);
     if (size) sizes.add(size);
   });
   
   // Populate filter dropdowns
-  
-  // Sort CRs numerically
-  Array.from(crs).sort((a, b) => {
-    const numA = parseFloat(a);
-    const numB = parseFloat(b);
-    return numA - numB;
-  }).forEach(cr => {
-    const option = document.createElement('option');
-    option.value = cr;
-    option.textContent = cr;
-    crFilter.appendChild(option);
-  });
-  
   Array.from(types).sort().forEach(type => {
     const option = document.createElement('option');
     option.value = type;
@@ -222,22 +232,31 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Filter function
   function filterMonsters() {
-    const selectedCR = crFilter.value;
     const selectedType = typeFilter.value;
+    const crFrom = crFromInput.value ? parseFloat(crFromInput.value) : null;
+    const crTo = crToInput.value ? parseFloat(crToInput.value) : null;
     const selectedSize = sizeFilter.value;
     
     let visibleCount = 0;
     
     monsterCards.forEach(card => {
-      const cardCR = card.dataset.cr;
       const cardType = card.dataset.type;
+      const cardCR = parseFloat(card.dataset.cr);
       const cardSize = card.dataset.size;
       
-      const crMatch = !selectedCR || cardCR === selectedCR;
       const typeMatch = !selectedType || cardType === selectedType;
       const sizeMatch = !selectedSize || cardSize === selectedSize;
       
-      if (crMatch && typeMatch && sizeMatch) {
+      // CR range matching
+      let crMatch = true;
+      if (crFrom !== null && cardCR < crFrom) {
+        crMatch = false;
+      }
+      if (crTo !== null && cardCR > crTo) {
+        crMatch = false;
+      }
+      
+      if (typeMatch && crMatch && sizeMatch) {
         card.classList.remove('hidden');
         visibleCount++;
       } else {
@@ -262,15 +281,17 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Reset function
   function resetFilters() {
-    crFilter.value = '';
     typeFilter.value = '';
+    crFromInput.value = '';
+    crToInput.value = '';
     sizeFilter.value = '';
     filterMonsters();
   }
   
   // Add event listeners
-  crFilter.addEventListener('change', filterMonsters);
   typeFilter.addEventListener('change', filterMonsters);
+  crFromInput.addEventListener('input', filterMonsters);
+  crToInput.addEventListener('input', filterMonsters);
   sizeFilter.addEventListener('change', filterMonsters);
   resetButton.addEventListener('click', resetFilters);
   
