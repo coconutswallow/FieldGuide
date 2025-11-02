@@ -2,13 +2,12 @@
 layout: statblock
 title: The Dollmaker
 cr: 10
-type: Fiend (Shapechanger)
+type: Fiend
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game
-
 description: |
-## Pain and Porcelain
+    **Pain and Porcelain**
     The Dollmaker is a creature of unnatural origin, corrupted by the energies of the Far Realm and the evil darkness of the Shadowfell. It takes on a harmless form, often that of a small child, and lures victims in. Once it has established a relationship, it drains their life essence, and places what remains of the soul into a porcelain figure that it conjures to its clawed hand. The dolls that it creates are then sold to local villages and small towns, where they attach themselves to a small child or other vulnerable individual. Over time, they form a bond with the child, turning them against their parents. They convince the child to do dark things, such as conjure demons or bring harm to innocents. It provides guidance on these matters. After the bond has been solidified, the doll brings the child to *The dollmaker*, where they will be turned into a doll themselves.
 ---
 
