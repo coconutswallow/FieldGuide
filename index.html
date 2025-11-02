@@ -3,9 +3,6 @@ layout: default
 title: Hawthorne Field Guide
 ---
 
-<!-- The redundant header block has been REMOVED.
-     The site header, including the functional hamburger menu, is now inherited from default.html. -->
-
 <h2>Credits</h2>
 <p>The original Hawthorne Field Guide was been created by <b>km.d, MonoxideAtWork</b> and <b>Rexen</b> with the assistance of <b>Kathy</b> for updating and
 formatting using the Homebrewery in collaboration with the Lore Consultants and Rules Architects of the Hawthorne Dungeons & Dragons Guild</p>
@@ -15,18 +12,264 @@ formatting using the Homebrewery in collaboration with the Lore Consultants and 
 <p>The monsters in this compendium have been created by various members of the community of the Hawthorne Dungeons & Dragons Guild.<br> 
   The credits are listed on the page of the statblock(s).</p>
 
+<!-- Filter Controls -->
+<div class="filter-container">
+  <div class="filter-group">
+    <label for="creator-filter">Creator:</label>
+    <select id="creator-filter" class="filter-select">
+      <option value="">All Creators</option>
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label for="type-filter">Type:</label>
+    <select id="type-filter" class="filter-select">
+      <option value="">All Types</option>
+    </select>
+  </div>
+  
+  <div class="filter-group">
+    <label for="cr-filter">CR:</label>
+    <select id="cr-filter" class="filter-select">
+      <option value="">All CRs</option>
+    </select>
+  </div>
+  
+  <button id="reset-filters" class="reset-button">Reset Filters</button>
+</div>
+
+<div id="monster-count" class="monster-count"></div>
+
 {% assign monsters_by_category = site.monsters | where_exp:"item", "item.category != null" | group_by: 'category' | sort: 'name' %}
 
 {% for category in monsters_by_category %}
-  <h2>{{ category.name }}</h2>
+  <div class="category-section" data-category="{{ category.name }}">
+    <h2 class="category-title">{{ category.name }}</h2>
 
-  <div class="monster-list">
-    {% assign sorted = category.items | sort: 'title' %}
-    {% for monster in sorted %}
-      <div class="monster-card">
-        <h3><a href="{{ monster.url | relative_url }}">{{ monster.title }}</a></h3>
-      </div>
-    {% endfor %}
+    <div class="monster-list">
+      {% assign sorted = category.items | sort: 'title' %}
+      {% for monster in sorted %}
+        <div class="monster-card" 
+             data-creator="{{ monster.creator | default: 'Unknown' }}" 
+             data-type="{{ monster.type }}" 
+             data-cr="{{ monster.cr }}">
+          <h3><a href="{{ monster.url | relative_url }}">{{ monster.title }}</a></h3>
+          <p class="monster-cr">CR {{ monster.cr }}</p>
+          <p class="monster-type">{{ monster.type }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
-
 {% endfor %}
+
+<style>
+.filter-container {
+  background: #FDF1DC;
+  border: 2px solid #58180D;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  flex: 1;
+  min-width: 150px;
+}
+
+.filter-group label {
+  font-family: var(--font-header);
+  font-weight: 700;
+  color: #58180D;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+}
+
+.filter-select {
+  padding: 0.5em;
+  border: 2px solid #58180D;
+  border-radius: 4px;
+  background: white;
+  font-family: var(--font-body);
+  font-size: 1em;
+  color: #58180D;
+  cursor: pointer;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #822000;
+  box-shadow: 0 0 0 2px rgba(88, 24, 13, 0.2);
+}
+
+.reset-button {
+  padding: 0.5em 1.5em;
+  background: #58180D;
+  color: #FDF1DC;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--font-header);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s;
+  height: fit-content;
+}
+
+.reset-button:hover {
+  background: #822000;
+}
+
+.monster-count {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: #58180D;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+.category-section {
+  margin-bottom: 2em;
+}
+
+.category-section.hidden {
+  display: none;
+}
+
+.monster-card.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .filter-group {
+    min-width: 100%;
+  }
+  
+  .reset-button {
+    width: 100%;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const creatorFilter = document.getElementById('creator-filter');
+  const typeFilter = document.getElementById('type-filter');
+  const crFilter = document.getElementById('cr-filter');
+  const resetButton = document.getElementById('reset-filters');
+  const monsterCards = document.querySelectorAll('.monster-card');
+  const categorySections = document.querySelectorAll('.category-section');
+  const monsterCount = document.getElementById('monster-count');
+  
+  // Collect unique values for filters
+  const creators = new Set();
+  const types = new Set();
+  const crs = new Set();
+  
+  monsterCards.forEach(card => {
+    const creator = card.dataset.creator;
+    const type = card.dataset.type;
+    const cr = card.dataset.cr;
+    
+    if (creator) creators.add(creator);
+    if (type) types.add(type);
+    if (cr) crs.add(cr);
+  });
+  
+  // Populate filter dropdowns
+  Array.from(creators).sort().forEach(creator => {
+    const option = document.createElement('option');
+    option.value = creator;
+    option.textContent = creator;
+    creatorFilter.appendChild(option);
+  });
+  
+  Array.from(types).sort().forEach(type => {
+    const option = document.createElement('option');
+    option.value = type;
+    option.textContent = type;
+    typeFilter.appendChild(option);
+  });
+  
+  // Sort CRs numerically
+  Array.from(crs).sort((a, b) => {
+    const numA = parseFloat(a);
+    const numB = parseFloat(b);
+    return numA - numB;
+  }).forEach(cr => {
+    const option = document.createElement('option');
+    option.value = cr;
+    option.textContent = cr;
+    crFilter.appendChild(option);
+  });
+  
+  // Filter function
+  function filterMonsters() {
+    const selectedCreator = creatorFilter.value;
+    const selectedType = typeFilter.value;
+    const selectedCR = crFilter.value;
+    
+    let visibleCount = 0;
+    
+    monsterCards.forEach(card => {
+      const cardCreator = card.dataset.creator;
+      const cardType = card.dataset.type;
+      const cardCR = card.dataset.cr;
+      
+      const creatorMatch = !selectedCreator || cardCreator === selectedCreator;
+      const typeMatch = !selectedType || cardType === selectedType;
+      const crMatch = !selectedCR || cardCR === selectedCR;
+      
+      if (creatorMatch && typeMatch && crMatch) {
+        card.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        card.classList.add('hidden');
+      }
+    });
+    
+    // Hide/show category sections based on visible monsters
+    categorySections.forEach(section => {
+      const visibleCardsInSection = section.querySelectorAll('.monster-card:not(.hidden)');
+      if (visibleCardsInSection.length === 0) {
+        section.classList.add('hidden');
+      } else {
+        section.classList.remove('hidden');
+      }
+    });
+    
+    // Update count
+    const totalCount = monsterCards.length;
+    monsterCount.textContent = `Showing ${visibleCount} of ${totalCount} monsters`;
+  }
+  
+  // Reset function
+  function resetFilters() {
+    creatorFilter.value = '';
+    typeFilter.value = '';
+    crFilter.value = '';
+    filterMonsters();
+  }
+  
+  // Add event listeners
+  creatorFilter.addEventListener('change', filterMonsters);
+  typeFilter.addEventListener('change', filterMonsters);
+  crFilter.addEventListener('change', filterMonsters);
+  resetButton.addEventListener('click', resetFilters);
+  
+  // Initial count
+  filterMonsters();
+});
+</script>
