@@ -293,6 +293,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
+    // Re-sort visible monsters by CR within each category
+    categorySections.forEach(section => {
+      const monsterList = section.querySelector('.monster-list');
+      const cards = Array.from(monsterList.querySelectorAll('.monster-card:not(.hidden)'));
+      
+      // Sort visible cards by CR numerically
+      cards.sort((a, b) => {
+        const crA = parseCR(a.dataset.cr);
+        const crB = parseCR(b.dataset.cr);
+        return crA - crB;
+      });
+      
+      // Re-append visible cards in sorted order (hidden cards stay where they are)
+      cards.forEach(card => monsterList.appendChild(card));
+    });
+    
     // Hide/show category sections based on visible monsters
     categorySections.forEach(section => {
       const visibleCardsInSection = section.querySelectorAll('.monster-card:not(.hidden)');
