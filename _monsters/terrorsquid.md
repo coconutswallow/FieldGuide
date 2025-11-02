@@ -6,14 +6,7 @@ type: Aberration
 size: Large
 alignment: Neutral Evil
 category: 2014 Fair Game
-description: |
-  The Terrorsquid is an otherworldly cephalopod, a creature of nightmare that glides through both deep water and the open air. It uses its innate ability to generate a dense, obscuring fog, from which it launches surprise attacks with its long, powerful tentacles, binding and biting its unfortunate victims.
-  
-  #### Habitat
-  Terrorsquids are often found lurking in deep, dark oceanic trenches, murky freshwater caves, or abandoned seaside fortresses. They can also hover in mist-shrouded swamps or mountain passes, using their **Nightmare Fog** to create an ideal hunting ground.
-  
-  #### Combat Tactics
-  The Terrorsquid begins combat by deploying its **Nightmare Fog** to heavily obscure the area, then uses **Fog Stealth** to effectively hide as a bonus action. It uses its 15-foot reach **Tentacles** attack to grapple and restrain a target, then follows up with its powerful **Bite**. Its **Amphibious** nature allows it to flee easily into the nearest body of water.
+creator: Monoxide At Work
 ---
 
 ___

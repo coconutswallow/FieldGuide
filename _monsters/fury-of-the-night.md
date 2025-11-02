@@ -6,15 +6,7 @@ type: Monstrosity
 size: Large
 alignment: Chaotic Evil
 category: 2014 Fair Game
-
-description: |
-  A Fury of the Night is a horrifying, predatory monstrosity that glides through the darkness, an apex hunter defined by its raw power and terrifying presence. It is a large, winged beast whose skin and wings blend seamlessly with the shadows, making it nearly invisible against the night sky.
-  
-  #### Habitat
-  Furies of the Night haunt dark, desolate regions, often dwelling in high mountain peaks, stormy cloud layers, or deep forests where perpetual twilight reigns. They are rarely seen near civilization, preferring to strike at remote camps and isolated travelers.
-  
-  #### Combat Tactics
-  The Fury is an expert aerial combatant, using **Flyby** and **Shadow Stealth** (often moving at half speed to gain advantage on Stealth checks due to **Chameleon Skin**) to set up an ambush. It initiates combat with **Frightful Presence** to scatter and control foes. Its signature move is to use **Claw** to grapple one or two targets, then use its superior strength (**Powerful Wings**) to fly them up and slam them into other creatures (**Creature Slam**) or the ground (**Divebomb**), ending the grapple and dealing massive bludgeoning damage.
+creator: Grimm
 ---
 
 ___

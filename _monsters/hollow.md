@@ -6,15 +6,7 @@ type: Undead
 size: Medium
 alignment: Neutral Evil
 category: 2014 Fair Game
-
-description: |
-  A Hollow is a form of undead animated not by a malevolent spirit, but by a lingering, desperate impulse to fight. It appears as a skeletal or emaciated figure in tattered gear, driven by the echoes of a life once lived, yet lacking any true mind or soul.
-  
-  #### Habitat
-  Hollows are common fodder found in mausoleums, ancient battlefields, forgotten dungeons, or any place where a person died suddenly and violently. They often form the mindless ranks of a greater necromancer's army.
-  
-  #### Combat Tactics
-  The Hollow is an aggressive but dim-witted opponent. It favors closing to melee range to utilize its **Shortsword** attack. Its special **Flurry** action, though rare, makes it dangerous to a single target, allowing it to rapidly deliver four attacks in a single turn. It relies on its high Constitution to keep it shambling forward.
+creator: km.d
 ---
 
 ___

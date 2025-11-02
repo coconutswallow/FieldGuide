@@ -6,15 +6,7 @@ type: Beast
 size: Huge
 alignment: Unaligned
 category: 2014 Fair Game
-
-description: |
-  The Infected Toad is a gigantic amphibian, mutated by an unknown contagion or blight into a monstrous predator. Its skin is a slick, festering mass that constantly oozes toxic spores, making it a walking hazard. It is driven by relentless, primal hunger, seeking to incapacitate and consume any creature it encounters.
-  
-  #### Habitat
-  These massive, toxic toads are found in swampy, polluted, or magically corrupted wetlands, deep marshes, and underground rivers. They thrive in environments where disease and decay are rampant, allowing their toxic nature to proliferate unchallenged.
-  
-  #### Combat Tactics
-  The Infected Toad is an aggressive ambush predator, relying on **Standing Leap** and **Amphibious** to surprise its prey. It opens with its **Multiattack**, using **Spore Cloud** to incapacitate a target, then follows up with a **Bite** to grapple. If successful, its **Hungry** trait allows it to immediately use **Swallow** as a bonus action. Any enemy that remains close takes automatic damage from its **Poison Skin**, punishing melee combatants.
+creator: Ithaya
 ---
 
 ___

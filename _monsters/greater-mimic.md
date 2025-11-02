@@ -7,15 +7,7 @@ type: Monstrosity
 size: Medium
 alignment: Neutral
 category: 2014 Fair Game
-
-description: |
-  A Greater Mimic is an exceptionally large and cunning variant of the classic monster, capable of taking on the form of massive objects—or even combinations of objects—to lure in more formidable prey. It is distinguished by a large, gaping mouth that acts as an **Extradimensional Storage** space, a deadly trap into which it deposits its unfortunate victims and treasure alike.
-  
-  #### Habitat
-  Greater Mimics typically inhabit well-trafficked but neglected areas, such as the deepest parts of ancient dungeons, forgotten bank vaults, or the holds of derelict ships. Their size and intelligence allow them to take on highly specific and valuable disguises, like a large suit of armor, a treasure chest stacked high with goods, or a merchant's cart.
-  
-  #### Combat Tactics
-  The Greater Mimic relies entirely on **False Appearance** and its **Adhesive** trait to secure its first target. It uses its **Multiattack** to unleash its full array of weapons, including a deadly **Bite** attack that deals acid damage and an **Assorted Weapons** attack that suggests it can quickly shift its appendages into different forms. Once a target is grappled, its **Grappler** trait ensures it hits with superior accuracy until the victim can escape its sticky grasp.
+creator: Monoxide At Work
 ---
 
 ___

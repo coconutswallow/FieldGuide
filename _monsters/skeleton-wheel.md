@@ -6,15 +6,7 @@ type: Undead
 size: Medium
 alignment: Lawful Evil
 category: 2014 Fair Game
-
-description: |
-  A grotesque fusion of undeath and mechanism, the Skeleton Wheel is the reanimated remains of a victim violently contorted and bound within a large wooden or metal wheel. Driven by a relentless, crushing evil, it patrols ancient roads and ruins, seeking to flatten any creature in its path.
-  
-  #### Habitat
-  Skeleton Wheels are typically found in crypts, abandoned siege weapon depots, or guarding old, cursed roads and military fortifications. They are sometimes created by necromancers who specialize in macabre constructs.
-  
-  #### Combat Tactics
-  The Skeleton Wheel's strategy is simple: move as fast as possible in a straight line, aiming to run over and knock targets **prone** with its **Slam** attack, then immediately use **Devastating Roll** on subsequent turns to crush its helpless victims. It relies on its high mobility and continuous damage output to overwhelm unarmored or smaller foes.
+creator: km.d
 ---
 
 ___

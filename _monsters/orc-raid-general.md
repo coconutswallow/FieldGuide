@@ -7,14 +7,7 @@ type: Humanoid
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game
-description: |
-  The **Orc Raid General** is the terrifying, brutal commander of an orc horde. Clad in heavy splint mail and wielding a greataxe infused with the raw, destructive power of **Gruumsh**, this orc is a terrifying force of nature. It is a cunning leader, capable of both intimidating foes into paralysis and inspiring its troops to overwhelming fury. It seeks not just victory, but total, merciless destruction.
-  
-  #### Habitat
-  Orc Raid Generals are found leading massive warbands, commanding fortified camps on the edges of civilized lands, or occupying strongholds and ruins that serve as a base for their relentless raids against settled populations.
-  
-  #### Combat Tactics
-  The General is an unrelenting front-line commander. It uses **Aggressive** to close the distance quickly and its **Multiattack** to deliver three devastating strikes infused with **Gruumsh's Fury**. Before or during its attack routine, it uses **Intimidating Presence** to sow panic in the ranks. Its single-use **Battle Cry** is reserved for turning the tide of battle, giving its allies a massive advantage. It is deceptively durable, using **Relentless** to survive lethal blows and **Last Stand** to launch a final, desperate attack when near defeat.
+creator: Monoxide At Work
 ---
 
 ___

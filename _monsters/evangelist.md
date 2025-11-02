@@ -6,14 +6,7 @@ type: Undead
 size: Medium
 alignment: Lawful Evil
 category: 2014 Fair Game
-description: |
-  An Evangelist is a cruel, cunning undead that clings to the remnants of its worldly zealotry. Unlike mindless zombies, this undead entity wields both martial training and dark arcane power, often serving as a devoted and manipulative preacher of its dark god or creator.
-  
-  #### Habitat
-  Evangelists are typically found leading cults, guarding necromantic sites, or standing as grim sentries in forgotten temples. Their need for followers means they occasionally lurk near civilized areas to lure new victims into their dark servitude.
-  
-  #### Combat Tactics
-  The Evangelist uses its **Spellcasting** to control the battlefield and inflict status effects (*ray of enfeeblement*, *ray of sickness*), while its **Brute** trait makes its melee **Morningstar** attacks surprisingly powerful. Its combination of spells and melee strength allows it to adapt to different threats.
+creator: km.d
 ---
 
 ___

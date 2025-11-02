@@ -6,8 +6,7 @@ type: Construct
 size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game
-description: |
-    Creation by Constantine
+creator: Constantine
 ---
 
 ___

@@ -8,14 +8,7 @@ alignment: Lawful Evil
 category: 2014 Fair Game
 image: https://orig00.deviantart.net/0ee6/f/2014/356/3/9/infected_zombie_sth_by_noistromo-d8ar6z8.jpg
 image_credit: "Art by Noistromo"
-description: |
-  A tragic and terrifying undead creature, the Drowned Soul is the lingering, spiteful remnant of someone who met a violent or agonizing end in the water. Bloated, saturated with brine, and driven by a final, desperate act of violence, it seeks to drag others down to share its fate.
-  
-  #### Habitat
-  Drowned Souls are typically found near any large body of water—deep rivers, dark lakes, or coastal areas—where a drowning tragedy occurred. They often lie submerged beneath the murky surface, waiting for any living creature to draw near.
-  
-  #### Combat Tactics
-  The Drowned Soul is a basic melee threat, relying on its high Constitution and **Undead Fortitude** to keep fighting after seemingly being defeated. Its most dangerous feature is its death: it tries to close on as many foes as possible to maximize the effect of its **Shower of Gore**, which can blind and damage enemies, providing an opening for other nearby threats.
+creator: Avohri
 ---
 
 ___

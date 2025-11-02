@@ -6,15 +6,7 @@ type: Undead
 size: Medium
 alignment: Neutral Evil
 category: 2014 Fair Game
-
-description: |
-  A Hollow Soldier is a common undead infantryman, its husk clad in faded armor and driven by the lingering military discipline it held in life. Though slow-witted, it is capable of wielding multiple weapons and utilizing tactical gear, making it a more significant threat than a basic zombie.
-  
-  #### Habitat
-  Hollow Soldiers are typically found in the ranks of undead armies, garrisoned in ruined castles, or standing sentry duty in the crypts and battlements they guarded in life. They are a staple of necromancer forces.
-  
-  #### Combat Tactics
-  The Hollow Soldier uses its **Longsword** and **Shield** to maintain a higher Armor Class and hold the line. It uses its **Spear** or **Light Crossbow** to engage targets trying to keep their distance. Like other Hollows, it possesses the dangerous **Flurry** action, which it will use to attempt to overwhelm a single adjacent target with a rapid barrage of four melee attacks.
+creator: km.d
 ---
 
 ___

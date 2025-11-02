@@ -6,15 +6,7 @@ type: Humanoid
 size: Medium
 alignment: Any Alignment
 category: 2014 Fair Game
-
-description: |
-  The Grand Warlock is a highly-placed and heavily favored servant of a powerful entity from the Far Realm, dedicating their life to the pursuit of forbidden knowledge and cosmic power. They often appear calm and charismatic, but their eyes hold the terrifying knowledge of the void, and their mind is a shield against all psychic intrusion.
-  
-  #### Habitat
-  Grand Warlocks establish their bases of operation in places that offer secrecy and power, such as hidden temples beneath bustling cities, ancient libraries dedicated to forgotten deities, or isolated fortresses where they can conduct their terrifying rituals far from prying eyes.
-  
-  #### Combat Tactics
-  The Warlock is a master of battlefield control. They cast *mage armor* before combat, bringing their AC to 16. Their primary attack is a devastating, multi-beam **Eldritch Blast**, which they use with **Eldritch Pull** and **Repelling Blast** to constantly reposition their enemies. They use **Whispering Aura** to punish creatures that come too close, and their spells (*darkness*, *dimension door*) allow for tactical retreats and defensive maneuvers. They use **Legendary Resistance** to ensure their most potent spells succeed and to avoid debilitating effects.
+creator: Monoxide At Work
 ---
 
 ___

@@ -6,14 +6,7 @@ type: Ooze
 size: Small
 alignment: Unaligned
 category: 2014 Fair Game
-description: |
-  The Playful Pulp is a bizarre and terrifyingly cheerful ooze, appearing as a small, brightly-colored blob with a disturbing, high-energy presence. Driven not by malice but by a hyper-emotional, chaotic need for "play," it seeks to grapple and tickle victims into helpless laughter while its euphoric feeding sustains it. Despite its small size, its resilience and charming abilities make it a deceptively sticky encounter.
-  
-  #### Habitat
-  Playful Pulps are found in places associated with innocent joy or high emotional energy, such as nurseries, abandoned toy shops, playgrounds, or even in the emotional wake of powerful fey creatures. They enjoy clean, well-lit spaces where they can be seen.
-  
-  #### Combat Tactics
-  The Pulp uses **Nimble Escape** and **Potently Playful** to dart around the battlefield. It opens combat by using **Adorable Antics** to Charm initial threats. Its main strategy is to use **Snatching Pseudopod** to grapple a target and pull it into its space. Once a creature is grappled, the Pulp's **Euphoric Feeding** trait immediately kicks in, restoring 15 hit points per turn, and the Pulp uses **Euphoric Tickle** to completely immobilize and incapacitate the restrained victim with uncontrollable laughter.
+creator: Zow Jr
 ---
 
 ___

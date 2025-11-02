@@ -6,8 +6,7 @@ type: Construct
 size: Huge
 alignment: Unaligned
 category: 2014 Fair Game
-description: |
-  Creation by Falky44
+creator: Falky44
 ---
 
 ___

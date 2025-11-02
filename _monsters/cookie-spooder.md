@@ -7,15 +7,12 @@ size: Tiny
 alignment: Neutral Good
 category: 2014 Fair Game
 image: https://cdn.discordapp.com/attachments/412330916640325652/622462533868978195/9df559bb4b8e0aec1c50754bb7a7cce5_original.png
+creator: Aiko
 
 description: |
-  The **Cookie Spooder** is a bizarre and benevolent arachnid with a body composed of living, edible cookie dough. Its primary purpose is to be a selfless source of comfort and sustenance, magically growing chocolate chips on its body that function as *goodberries*. Despite its monstrous appearance, it is a kind-hearted creature willing to sacrifice its own life for the survival of its friends.
+  Half cookie, half spider, the cookie spooder was the result of a wizard trying to create the perfect cookie recipe. Unknown to the wizard, a small spider had wandered toward a batch of fresh cookies for a treat. The magical reaction with the spider and the cookies created this strange creature.
   
-  #### Habitat
-  Cookie Spooders are found in warm, secure, and comfortable environments, such as cozy homes, kitchens, or bakeries, where they can be near those who might need their unique healing abilities.
-  
-  #### Combat Tactics
-  The Cookie Spooder is not a combatant; its primary role is support. It uses its daily castings of **Innate Spellcasting** (*goodberry*) to maximize the chocolate chips on its **Cookie Body** (up to 10), providing small bursts of healing to allies who can grab the chips as an action. Its final act of sacrifice is to allow a creature to eat it, instantly healing the creature based on the number of chips remaining on its body. It uses **Spider Climb** to remain out of the immediate fray.
+  The cookie spooder subsists on a diet of sweets and confectionaries and weaves webs made of sugar and sweets in its chocolate-y lair. It's a friendly little creature that will usually hide when it first sees a creature. If it deems a creature friendly, it will follow the creature for a short time. When it casts the goodberry spell, it grows up to 10 chocolate chips on its thorax that a creature can consume like a regular goodberry.
 ---
 
 ___

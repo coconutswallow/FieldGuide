@@ -8,14 +8,7 @@ type: Monstrosity
 size: Large
 alignment: Unaligned
 category: 2014 Fair Game
-description: |
-  The Fallanox is a repulsive, two-headed monstrosity that resembles an enormous, bloated spider. Driven by primal hunger, it uses potent paralyzing venom and deceptive tactics to ambush and consume prey. Its two heads grant it exceptional awareness and resilience.
-  
-  #### Habitat
-  Fallanox are typically found in dark, secluded environments such as ruins, deep forest canopies, caves, or abandoned structures where they can utilize their **Spider Climb** ability and remain undetected. They often hunt in small groups, relying on cunning and numbers.
-  
-  #### Combat Tactics
-  The Fallanox is a deadly ambush predator. It relies on **False Appearance** to set up the perfect attack, often appearing to be a dead, harmless spider. It uses **Pack Tactics** to gain advantage on its **Bite** attacks, prioritizing a target to paralyze with its potent venom. If combat goes poorly, its **False Death** reaction allows it to survive a killing blow and feign death, hoping to spring a surprise attack on survivors. It uses its **Web** to restrain additional targets.
+creator: km.d
 ---
 
 ___

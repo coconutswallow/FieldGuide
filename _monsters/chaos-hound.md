@@ -6,6 +6,7 @@ type: Fiend
 size: Large
 alignment: Chaotic Evil
 category: 2014 Fair Game
+creator: Case
 description: |
   ## Chaos Hound
   Putrid fiends that resemble decaying dogs, **chaos hounds** are found throughout the Abyss and other parts of the Lower Planes. On the Material Plane, they are most commonly seen in the service of powerful demons and other evil creatures that use them as trackers and hunters.

@@ -7,16 +7,12 @@ size: Medium
 alignment: Chaotic Evil
 category: 2014 Fair Game
 image: https://i.redd.it/jn72nbc54dnz.jpg
+creator: Killerspy
 description: |
-  The **Bringer of Misery** is a terrifying, shadowy undead creature born from a person who died in the Shadowfell, consumed by hopelessness and despair. When they finally die, their ghost returns twisted by the plane into a bringer of misery, seeking to return to the Material Plane and make everyone as miserable as they were at the end of their life.
+  The Shadowfell is a dark and gloomy place for a person to find themselves in. The foolish who enter the Shadowfell unprepared often find it very unforgiving. Those that are not killed by the creatures that dwell on this plane can fall into despair and think they will never return home. They begin to blame anyone and everyone for their situation as their hopelessness and misery turn into madness. When they finally die, their ghost returns twisted by the plane into a bringer of misery. These undead creatures seek to return to the Material Plane and make everyone as miserable as they were at the end of their life. These creatures are rarely seen on the Material Plane because they did not know a way out of the plane in life so they spend all of their time trying to find one in death. When one does get through, it will use any means necessary to make as many people as miserable as possible. The two most common ways it does this is by killing the friends and family members of others or by haunting them until they slip into insanity.
   
-  These creatures are rarely seen on the Material Plane because they did not know a way out of the plane in life, so they spend all of their time trying to find one in death. When one does get through, it will use any means necessary to make as many people as miserable as possible, often by killing friends and family members or haunting victims until they slip into insanity.
-  
-  #### Habitat
-  Bringers of Misery are typically found in the deepest, darkest regions of the Shadowfell. On the Material Plane, they gravitate toward places marked by ancient tragedies, large crypts, or deep subterranean areas, constantly avoiding the sun.
-  
-  #### Combat Tactics
-  The Bringer of Misery is a terrifying assassin that leverages its **Incorporeal Movement** to ignore physical barriers. It uses **Shadow Stealth** to ambush foes, and activates **Misery Swarm** to punish any creature that manages to engage it in melee. Its primary attack, **Shadow Claw**, is lethal not just for its necrotic damage, but for its ability to permanently reduce the victim's hit point maximum.
+  ####Undead Nature. 
+  A bringer of misery doesn't require air, food, drink, or sleep.
 ---
 
 ___

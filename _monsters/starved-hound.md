@@ -6,15 +6,7 @@ type: Undead
 size: Medium
 alignment: Neutral Evil
 category: 2014 Fair Game
-
-description: |
-  A Starved Hound is an undead dog, gaunt and rotting, animated by an eternal, gnawing hunger and necromantic malice. It is a terrifying, silent predator of the night, often hunting in packs to overwhelm its prey.
-  
-  #### Habitat
-  These hounds are typically found in packs, guarding necromancers' lairs, patrolling desolate graveyards, or hunting across abandoned battlefields. They prefer dark, open areas where their speed and pack tactics can be best utilized.
-  
-  #### Combat Tactics
-  The hound relies on **Pack Tactics** and its high speed of 40 ft. It uses **Lunge** to rush enemies, attempting to knock them **prone** and gain an immediate bonus action attack. It is relentless in its pursuit, using **Keen Hearing and Smell** to track down fleeing prey. Although its individual **Bite** is weak, its ability to attack multiple times, combined with the presence of other hounds, makes it a dangerous threat. It is vulnerable to **fire**.
+creator: km.d
 ---
 
 ___
