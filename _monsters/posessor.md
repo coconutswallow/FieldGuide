@@ -6,17 +6,19 @@ type: Elemental
 size: Tiny
 alignment: Neutral
 category: 2014 Fair Game
+creator: One True Doge
 image: https://www.khwiki.com/images/thumb/0/08/Massive_Possessor_KHD.png/180px-Massive_Possessor_KHD.png
 description: |
-  A **Possessor** is a type of lesser elemental formed from stray negative emotions and thoughts that have coalesced over a long period of time. It is emotionless and acts purely on instinct to survive by draining the life force of living creatures it comes across. The creature is frail in its naked form, and thus relies on its **Object Possession** ability to beat its prey into submission before moving in to safely feed.
-  
-  Possessors often gather in abandoned buildings near small settlements, lying in wait for curious individuals to investigate rumors of "the old haunted house on the hill."
-  
+
+  A possessor is a type of lesser elemental formed from stray negative emotions and thoughts that have coalesced over a long period of time. It is emotionless and acts purely on instinct to survive by draining the life force of living creatures it comes across, often using its ability to possess objects to its advantage by lying in wait for unsuspecting individuals. That being said, they are quite frail in their naked forms, and thus rely on using objects of varying sizes to beat their prey into submission before moving in to safely feed.
+
+  Though they are not especially intelligent, they often gather in abandoned buildings near small settlements, lying in wait for curious individuals to investigate rumors of "the old haunted house on the hill."
+
+  **Elemental Nature**. A possessor doesn't require air, food, drink, or sleep.
+
   #### Note on Challenge Rating
   A Possessor always favors beginning combat inside an object and is likely to surprise the adventuring party given its **False Appearance** trait. Treat the possessor as a **CR 3** (700 XP) if it begins combat already possessing an object.
 
-  #### Combat Tactics
-  The Possessor's entire strategy revolves around its ability to use **Object Possession** to gain a protective shell and increase its lethality. It uses its natural stealth from **Born of Darkness** to lie in wait (**False Appearance**). Once possessing an object, it attacks aggressively. When the object is defeated, the possessor quickly uses **Life Drain** to attach itself to a target, draining life and healing itself, while relying on its **Amorphous** and damage immunities to survive.
 ---
 
 ___

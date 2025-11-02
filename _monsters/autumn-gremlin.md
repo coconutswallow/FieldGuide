@@ -8,7 +8,7 @@ alignment: Chaotic Neutral
 category: 2014 Fair Game
 creator: Shaunuthun
 description: |
-  ###Gremlins of the Autumn Court 
+  
   Gremlins of the Autumn Court are called upon when their masters need a creepy and crawly creature to ambush a nuisance to the Court. They are larger, stronger and more intimidating than their smaller boggle cousins. It is rumoured that boggles that achieve great service to the Court are transformed into these beings. The transformation renders them blind, and they learn to lurk in dark caves and scurry their way through the earth.
   
   #### Earth Shapers

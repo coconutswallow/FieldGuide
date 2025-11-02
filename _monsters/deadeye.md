@@ -6,14 +6,16 @@ type: Undead
 size: Medium
 alignment: Lawful Evil
 category: 2014 Fair Game
+creator: Colt
 
 description: |
-  **Deadeyes** are made from the souls of mortals claimed by devils. A devil imbues the soul into a corpse in the Material Plane, assigning it a bounty—a mortal who cheated the devil out of a contract. The deadeye reclaims its mortal body, superficially resembling a zombie, but its sockets burn with hellfire that flares brightly in the presence of its target. The bounty always recognizes that the deadeye has been sent to slay it.
+  Deadeyes are made from the souls of mortals that have been claimed by devils. A deadeye's soul is imbued into a corpse in the Material Plane by a powerful devil, and it is assigned a bounty to collect. This bounty is a mortal who has cheated the devil out of a contract, and who the devil seeks revenge against. The deadeye reclaims its mortal body and superficially resembles a zombie. However, instead of lifeless eyes, a deadeye's sockets burn with hellfire and flare brightly in the presence of its bounty. If the deadeye's original body was destroyed or is otherwise unavailable, the devil imbues the soul into another humanoid corpse. Regardless of the body the deadeye uses as a vessel, its bounty always recognizes that the deadeye has been sent to slay it.
   
-  The deadeye has six months, six days, and six hours to slay its bounty, and it is armed with a six-chambered **Hellfire Pistol** that can send its bounty straight to the Nine Hells. If the bounty is killed, or if the deadeye fails to kill its bounty before its time runs out, the deadeye's soul returns to the devil that owns it. If the bounty is too powerful, a devil often sends multiple deadeyes.
+  **Like a Man Possessed**. A deadeye has six months, six days and six hours to slay its bounty, and it is armed with a six-chambered hellfire pistol that can send its bounty straight to the Nine Hells. When its bounty is killed, or if the deadeye fails to kill its bounty before its time runs out, the deadeye's soul returns to the devil that owns it. If the bounty is too powerful for a single deadeye to claim by itself, a devil often sends multiple deadeyes for the job.
   
-  #### Combat Tactics
-  The Deadeye is a deadly ranged combatant who uses its high Initiative (thanks to **Quickdraw**) and **Tumble** to constantly maneuver for the perfect shot. It relies on **Evasion** and **Undead Fortitude** to shrug off area damage and survive fatal blows. The Deadeye begins combat by using **Faceoff** to target multiple foes immediately. Thanks to **Gunslinger**, it can engage in melee or at long range without disadvantage, making it a relentless hunter that ignores common cover.
+  **Unholy Justice.** A deadeye is similar to a revenant, only that it doesn't come back once it is destroyed. A deadeye has to rely on its skill and its cunning to track down a bounty. Often, a deadeye is assigned more than one bounty, and the names are inscribed onto the pistol's cylinder. If the deadeye's body is destroyed, its soul returns to the devil, where it can plead for another chance to complete its task. If a deadeye is successful in negotiations, it can plead for its soul to be released in exchange for damning multiple souls of those that have cheated the devil.
+  
+  **Undead Nature**. A deadeye doesn't require air, food, drink, or sleep.
 ---
 
 ___

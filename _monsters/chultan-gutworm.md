@@ -7,23 +7,16 @@ size: Medium
 alignment: Neutral
 category: 2014 Fair Game
 image: https://cdn.discordapp.com/attachments/518252162401304580/621026734170570762/2606740903_1056d5bfef_z.jpg
-
-description: |
-  The **Chultan Gutworm** is a giant parasitic grub that burrows through the swampy earth of Chult. Its body is covered in tough, mud-like natural armor, and it possesses a venomous stinger used to paralyze victims before it can crawl inside them.
-
-  Chultan Gutworms are said to have originally been a species of parasite that infested small invertebrates, inhabiting the husks of the host and piloting it back to the nest. In the presence of the Death Curse, a new subspecies emerged, preying upon humanoid hosts by virtue of being larger and more aggressive organisms. Its most terrifying ability is its **Parasitic Undeath**, transforming its dead host into a mindless undead puppet.
+creator: Jen and MonoXideAtWork
+description: | 
+  #### Ecology
+  Chultan Gutworms are said to have originally been a species of parasite that infested small invertebrates, inhabiting the husks of the host and piloting it back to the nest where an endless supply of hosts awaited. In the presence of the Death Curse, a new subspecies emerged. This parasite preyed upon humanoid hosts by virtue of being larger and more aggressive organisms.
   
-  #### Note on Encounters
-  Chultan gutworms are likely to surprise a party adventuring through Chult's jungle, given its **Natural Camouflage** trait. Multiple gutworms ambushing a surprised adventuring party can be devastating between its **Paralytic Stinger** and **Infest** abilities. It is also possible that an encounter with undead in Chult could turn into an unexpected fight, with gutworms bursting out of the corpse!
-  
-  #### Habitat
-  These repulsive creatures are native to the deep, muddy jungles and swamps of Chult, particularly where the foliage is dense and the ground is soft enough for burrowing. They often lie in wait, perfectly camouflaged as tree roots in the mud.
-  
-  #### Combat Tactics
-  The Gutworm's strategy is to quickly incapacitate a living host. It uses **Paralytic Stinger** to inject venom and restrain a creature. Once a target is **paralyzed** (or otherwise helpless), the Gutworm focuses its **Infest** attack, delivering massive necrotic damage. If this damage kills a Medium or larger humanoid or beast, the Gutworm immediately climbs inside the corpse to animate it, effectively gaining a new, stronger body.
-
-  ### Mythology
+  #### Mythology
   There are rumors of even larger hosts being infested by dozens of gutworms, perhaps explaining the presence of great zombified beasts in the Chultan jungles. Similar tales mention survivors of the lost tribe of Eshowe, utilizing the gutworms in necromantic rituals with the aim of granting everlasting life, or as some would tell it, a state of intelligent undeath where host and parasite work as one in service of the Nightsinger.
+  
+  #### Note
+  Chultan gutworms are likely to surprise a party adventuring through Chult's jungle, given its Natural Camouflage trait, and multiple gutworms ambushing a surprised adventuring party can be devastating between its Paralytic Stinger and Infest. It is also possible that an encounter with undead in Chult could turn into an unexpected fight, with gutworms bursting out of the corpse!
 ---
 
 ___

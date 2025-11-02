@@ -6,20 +6,13 @@ type: Monstrosity
 size: Huge
 alignment: Neutral Evil
 category: 2014 Fair Game
+creator: Lexi
 image: https://cdn.discordapp.com/attachments/477473509405097984/534259330741174283/abomination.png
 description: |
-  The **Dark Stalker** is an evil, massive arachnid-like being that has a hatred for the sun, tending to stick to the shadows, lying in wait for unsuspecting prey to walk by. Dark stalkers are drawn to other evil beings of greater power and are often used as assassins by their "master."
+  The dark stalker is an evil being tending to stick to the shadows lying in wait for unsuspecting prey to walk by. It has a hatred for the sun, typically hiding in caves and moving under the cover of night. Dark stalkers are drawn to other evil beings of greater power and used as assassins by their "master." A dark stalker will stalk its target for at least a day before making an attempt on the target's life. Their preferred method of ambushing is to lure their target deep into a cave while hiding on the ceiling. When the target passes under it, the dark stalker drops down, cutting off an escape, and begins attacking immediately.
   
-  A Dark Stalker will **stalk** its target for at least a day before making an attempt on the target's life. Their preferred method of ambushing is to lure their target deep into a cave while hiding on the ceiling using **Spider Climb**. When the target passes under it, the Dark Stalker drops down, cutting off an escape, and begins attacking immediately.
-  
-  #### Note on Combat
-  Dark Stalkers are ambush predators and will seek to stalk targets for as long as it needs to, aiming to surprise the adventuring party at the opportune time. It is likely to make full use of the environment to its advantage both before and during combat, hiding in the shadows via its **Shadow Stealth** or skittering out of sight with its **Spider Climb**.
-
-  #### Habitat
-  They typically hide in caves, ancient ruins, and other lightless places, moving only under the cover of night. They are often found in the deep Underdark or subterranean lairs.
-  
-  #### Combat Tactics
-  The Dark Stalker uses **Shadow Stealth** to gain surprise, then leverages **Ambush** on the first round of combat for advantage on its initial attacks. It initiates with **Frightful Presence** to crowd-control the battlefield, followed by its **Multiattack** which delivers two powerful **Claw** strikes, each dealing massive poison damage. Its most devastating tool is **Night's Breath**, which can deal massive poison damage in a cone and potentially put creatures to sleep, leaving them helpless for a follow-up attack. Its **Magic Resistance** makes it difficult to neutralize with spells.
+  #### Note
+  Dark stalkers are ambush predators and will seek to stalk targets for as long as it needs to and ambush the adventuring party at the opportune time, likely to surprise them. It is also likely to make full use of the environment to its advantage both before and during combat, hiding in the shadows via its Shadow Stealth or skittering out of sight with its Spider Climb.
 ---
 
 ___
