@@ -212,6 +212,22 @@ document.addEventListener('DOMContentLoaded', function() {
     return parseFloat(crString);
   }
   
+  // Sort monsters by CR within each category
+  categorySections.forEach(section => {
+    const monsterList = section.querySelector('.monster-list');
+    const cards = Array.from(monsterList.querySelectorAll('.monster-card'));
+    
+    // Sort cards by CR numerically
+    cards.sort((a, b) => {
+      const crA = parseCR(a.dataset.cr);
+      const crB = parseCR(b.dataset.cr);
+      return crA - crB;
+    });
+    
+    // Re-append cards in sorted order
+    cards.forEach(card => monsterList.appendChild(card));
+  });
+  
   // Collect unique values for filters
   const types = new Set();
   const sizes = new Set();
